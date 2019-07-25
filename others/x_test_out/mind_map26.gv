@@ -1,0 +1,68 @@
+strict digraph mind_map26 {
+	node [color=red shape=doubleoctagon]
+	"Artificial intelligence scientific documentation, dataset for recommender systems"
+	node [color=blue shape=diamond]
+	"Author
+FERNANDO ORTEGA"
+	Keyword
+	"Artificial intelligence scientific documentation, dataset for recommender systems" -> "Author
+FERNANDO ORTEGA"
+	"Artificial intelligence scientific documentation, dataset for recommender systems" -> Keyword
+	node [color=yellow shape=ellipse]
+	"S Dataset"
+	Keyword -> "S Dataset"
+	" scientific documentation"
+	Keyword -> " scientific documentation"
+	" recommender systems"
+	Keyword -> " recommender systems"
+	" machine learning"
+	Keyword -> " machine learning"
+	" data mining"
+	Keyword -> " data mining"
+	" artificial intelligence"
+	Keyword -> " artificial intelligence"
+	" Scopus"
+	Keyword -> " Scopus"
+	" topics."
+	Keyword -> " topics."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		LINYUAN2018
+		MIRZAGOLAMKIBRIA2018
+		ShirLiWang2017
+		YANGXIN2018
+		Hettiarachchi2014
+		ADADI2018
+		"MAN-JEKIM2018"
+		"AnnaL.Buczak2015"
+		Xu2014
+		"G-omez-S-anchez2018"
+		Rijo2014
+	}
+	" machine learning" -> PETROVIC2018
+	" machine learning" -> LINYUAN2018
+	" machine learning" -> MIRZAGOLAMKIBRIA2018
+	" machine learning" -> YANGXIN2018
+	" machine learning" -> Hettiarachchi2014
+	" machine learning" -> ADADI2018
+	" machine learning" -> "AnnaL.Buczak2015"
+	" machine learning" -> "G-omez-S-anchez2018"
+	" machine learning" -> Rijo2014
+	" data mining" -> "AnnaL.Buczak2015"
+	" data mining" -> Xu2014
+	" data mining" -> Rijo2014
+	" artificial intelligence" -> MIRZAGOLAMKIBRIA2018
+	" artificial intelligence" -> ShirLiWang2017
+	" artificial intelligence" -> ADADI2018
+	" artificial intelligence" -> "MAN-JEKIM2018"
+	"Artificial intelligence scientific documentation, dataset for recommender systems" -> Authors
+	Authors -> "FERNANDO ORTEGA"
+	Authors -> "JESÚS BOBADILLA"
+	Authors -> "ABRAHAM GUTIÉRREZ"
+	Authors -> "REMIGIO HURTADO"
+	Authors -> "XIN LI"
+}

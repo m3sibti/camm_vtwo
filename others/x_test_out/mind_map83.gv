@@ -1,0 +1,36 @@
+strict digraph mind_map83 {
+	node [color=red shape=doubleoctagon]
+	"Classification of vanet mac, routing and approaches a detailed survey"
+	node [color=blue shape=diamond]
+	"Author
+Ajmal"
+	Keyword
+	"Classification of vanet mac, routing and approaches a detailed survey" -> "Author
+Ajmal"
+	"Classification of vanet mac, routing and approaches a detailed survey" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Vehicular Ad hoc Networks"
+	Keyword -> "Vehicular Ad hoc Networks"
+	" ITS"
+	Keyword -> " ITS"
+	" Routing Protocols"
+	Keyword -> " Routing Protocols"
+	" Routing Metrics"
+	Keyword -> " Routing Metrics"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Ajmal2014
+	}
+	"Vehicular Ad hoc Networks" -> Ajmal2014
+	" ITS" -> Ajmal2014
+	" Routing Protocols" -> Ajmal2014
+	" Routing Metrics" -> Ajmal2014
+	"Classification of vanet mac, routing and approaches a detailed survey" -> Authors
+	Authors -> "Sana Ajmal"
+	Authors -> "Asim Rasheed"
+	Authors -> "Amir Qayyum"
+	Authors -> "Aamir Hasan"
+}

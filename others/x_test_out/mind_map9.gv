@@ -1,0 +1,39 @@
+strict digraph mind_map9 {
+	node [color=red shape=doubleoctagon]
+	"A robust mutual authentication scheme based on elliptic curve cryptography for telecare medical information systems"
+	node [color=blue shape=diamond]
+	"Author
+SHUMING QIU"
+	Keyword
+	"A robust mutual authentication scheme based on elliptic curve cryptography for telecare medical information systems" -> "Author
+SHUMING QIU"
+	"A robust mutual authentication scheme based on elliptic curve cryptography for telecare medical information systems" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Telecare medicine information systems"
+	Keyword -> "Telecare medicine information systems"
+	" elliptic curve cryptography"
+	Keyword -> " elliptic curve cryptography"
+	" smart card"
+	Keyword -> " smart card"
+	" off-line password guessing attack"
+	Keyword -> " off-line password guessing attack"
+	" authentication"
+	Keyword -> " authentication"
+	" BAN-logic"
+	Keyword -> " BAN-logic"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+	}
+	" smart card" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" authentication" -> PENGHAO2018
+	"A robust mutual authentication scheme based on elliptic curve cryptography for telecare medical information systems" -> Authors
+	Authors -> "SHUMING QIU"
+	Authors -> "GUOAI XU"
+	Authors -> "HASEEB AHMAD"
+	Authors -> "LICHENG WANG"
+}

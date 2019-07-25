@@ -1,0 +1,58 @@
+strict digraph mind_map18 {
+	node [color=red shape=doubleoctagon]
+	"Cryptanalysis of public key cryptosystems based on non-abelian factorization problems"
+	node [color=blue shape=diamond]
+	"Author
+PENG HAO"
+	Keyword
+	"Cryptanalysis of public key cryptosystems based on non-abelian factorization problems" -> "Author
+PENG HAO"
+	"Cryptanalysis of public key cryptosystems based on non-abelian factorization problems" -> Keyword
+	node [color=yellow shape=ellipse]
+	cryptography
+	Keyword -> cryptography
+	" post-quantum cryptography"
+	Keyword -> " post-quantum cryptography"
+	" public key encryption"
+	Keyword -> " public key encryption"
+	" cryptanalysis"
+	Keyword -> " cryptanalysis"
+	" linear equations"
+	Keyword -> " linear equations"
+	node [color=black shape=circle]
+	PENGHAO2018
+	"Author
+PENG HAO" -> PENGHAO2018
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		FagenLi2016
+		SHUMINGQIU2017
+		TANPINGZHOU2018
+		JaihuiChen2018
+		ZUOWEN2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+	}
+	cryptography -> PINGYUANZHANG2018
+	cryptography -> KHASAWNEH2017
+	cryptography -> HADEALABDULAZIZALHAMID2017
+	cryptography -> FagenLi2016
+	cryptography -> SHUMINGQIU2017
+	cryptography -> TANPINGZHOU2018
+	cryptography -> JaihuiChen2018
+	cryptography -> ZUOWEN2018
+	cryptography -> "MOHAMMEDA.M.ABDULLAH2016"
+	" post-quantum cryptography" -> JaihuiChen2018
+	"Cryptanalysis of public key cryptosystems based on non-abelian factorization problems" -> Authors
+	Authors -> "Jinhui Liu"
+	Authors -> " Aiwan Fan"
+	Authors -> "Jianwei Jia"
+	Authors -> " Huanguo Zhang"
+	Authors -> "Houzhen Wang"
+	Authors -> "Shaowu Mao"
+}

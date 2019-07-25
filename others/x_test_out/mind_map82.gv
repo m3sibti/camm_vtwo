@@ -1,0 +1,36 @@
+strict digraph mind_map82 {
+	node [color=red shape=doubleoctagon]
+	"Developing scenario-based serious games for complex cognitive skills acquisition: Design, development and evaluation of the emergo platform"
+	node [color=blue shape=diamond]
+	"Author
+Slootmaker"
+	Keyword
+	"Developing scenario-based serious games for complex cognitive skills acquisition":" Design, development and evaluation of the emergo platform" -> "Author
+Slootmaker"
+	"Developing scenario-based serious games for complex cognitive skills acquisition":" Design, development and evaluation of the emergo platform" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Adaptive eLearning"
+	Keyword -> "Adaptive eLearning"
+	" eLearning Platforms"
+	Keyword -> " eLearning Platforms"
+	" Technology Enhanced Learning"
+	Keyword -> " Technology Enhanced Learning"
+	" Game Based Learning"
+	Keyword -> " Game Based Learning"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Slootmaker2014
+	}
+	"Adaptive eLearning" -> Slootmaker2014
+	" eLearning Platforms" -> Slootmaker2014
+	" Technology Enhanced Learning" -> Slootmaker2014
+	" Game Based Learning" -> Slootmaker2014
+	"Developing scenario-based serious games for complex cognitive skills acquisition":" Design, development and evaluation of the emergo platform" -> Authors
+	Authors -> "Aad Slootmaker"
+	Authors -> "Hub Kurvers"
+	Authors -> "Hans Hummel"
+	Authors -> "Rob Koper"
+}

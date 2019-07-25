@@ -1,0 +1,22 @@
+strict digraph mind_map36 {
+	node [color=red shape=doubleoctagon]
+	"Peeking inside the black-box: A survey on explainable artificial intelligence (xai)"
+	node [color=blue shape=diamond]
+	"Author
+BERRADA"
+	Keyword
+	"Peeking inside the black-box":" A survey on explainable artificial intelligence (xai)" -> "Author
+BERRADA"
+	"Peeking inside the black-box":" A survey on explainable artificial intelligence (xai)" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Explainable artificial intelligence"
+	Keyword -> "Explainable artificial intelligence"
+	" interpretable machine learning"
+	Keyword -> " interpretable machine learning"
+	" black-box models."
+	Keyword -> " black-box models."
+	"Peeking inside the black-box":" A survey on explainable artificial intelligence (xai)" -> Authors
+	Authors -> Adadi
+	Authors -> " Amina and Berrada"
+	Authors -> " Mohammed"
+}

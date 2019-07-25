@@ -1,0 +1,42 @@
+strict digraph mind_map33 {
+	node [color=red shape=doubleoctagon]
+	"Machine learning and deep learning methods for cybersecurity"
+	node [color=blue shape=diamond]
+	"Author
+YANG XIN"
+	Keyword
+	"Machine learning and deep learning methods for cybersecurity" -> "Author
+YANG XIN"
+	"Machine learning and deep learning methods for cybersecurity" -> Keyword
+	node [color=yellow shape=ellipse]
+	Cybersecurity
+	Keyword -> Cybersecurity
+	" intrusion detection"
+	Keyword -> " intrusion detection"
+	" deep learning"
+	Keyword -> " deep learning"
+	" machine learning."
+	Keyword -> " machine learning."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		LINCHEN2018
+		"AnnaL.Buczak2015"
+		MARTINSPAN2018
+	}
+	Cybersecurity -> MARTINSPAN2018
+	" deep learning" -> JAMESGERARDWOLFF2015
+	" deep learning" -> LINCHEN2018
+	" machine learning." -> "AnnaL.Buczak2015"
+	"Machine learning and deep learning methods for cybersecurity" -> Authors
+	Authors -> "YANG XIN"
+	Authors -> "LINGSHUANG KONG"
+	Authors -> "ZHI LIU"
+	Authors -> "YULING CHEN"
+	Authors -> "YANMIAO LI"
+	Authors -> "HONGLIANG ZHU"
+	Authors -> "MINGCHENG GAO"
+}

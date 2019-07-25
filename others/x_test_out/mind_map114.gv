@@ -1,0 +1,35 @@
+strict digraph mind_map114 {
+	node [color=red shape=doubleoctagon]
+	"Exploring interrelationships among high school students’ engagement factors in introductory programming courses via a 3D multi-user serious game created in open sim"
+	node [color=blue shape=diamond]
+	"Author
+Pellas"
+	Keyword
+	"Exploring interrelationships among high school students’ engagement factors in introductory programming courses via a 3D multi-user serious game created in open sim" -> "Author
+Pellas"
+	"Exploring interrelationships among high school students’ engagement factors in introductory programming courses via a 3D multi-user serious game created in open sim" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Programming courses"
+	Keyword -> "Programming courses"
+	" Open Sim"
+	Keyword -> " Open Sim"
+	" Scratch4OS"
+	Keyword -> " Scratch4OS"
+	" Serious games"
+	Keyword -> " Serious games"
+	" Student engagement"
+	Keyword -> " Student engagement"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Pellas2014
+	}
+	"Programming courses" -> Pellas2014
+	" Open Sim" -> Pellas2014
+	" Scratch4OS" -> Pellas2014
+	" Serious games" -> Pellas2014
+	" Student engagement" -> Pellas2014
+	"Exploring interrelationships among high school students’ engagement factors in introductory programming courses via a 3D multi-user serious game created in open sim" -> Authors
+}

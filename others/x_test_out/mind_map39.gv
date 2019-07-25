@@ -1,0 +1,93 @@
+strict digraph mind_map39 {
+	node [color=red shape=doubleoctagon]
+	"Stochastic and information theory techniques to reduce large datasets and detect cyberattacks in ambient intelligence environments"
+	node [color=blue shape=diamond]
+	"Author
+BORJA BORDEL"
+	Keyword
+	"Stochastic and information theory techniques to reduce large datasets and detect cyberattacks in ambient intelligence environments" -> "Author
+BORJA BORDEL"
+	"Stochastic and information theory techniques to reduce large datasets and detect cyberattacks in ambient intelligence environments" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Ambient intelligence"
+	Keyword -> "Ambient intelligence"
+	" security"
+	Keyword -> " security"
+	" big data"
+	Keyword -> " big data"
+	" cybersecurity"
+	Keyword -> " cybersecurity"
+	" stochastic models"
+	Keyword -> " stochastic models"
+	" information theory."
+	Keyword -> " information theory."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		TANPINGZHOU2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		"S.M.RIAZULISLAM2015"
+		SHANLIU2013
+		YUDHISTIRANUGRAHA2015
+		MARTINSPAN2018
+		ZHIHONGTIAN2018
+		IVOFRIEDBERG2017
+		RAMIREZ2016
+		Ge2018
+		"LU-XINGYANG2017"
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+	}
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PINGYUANZHANG2018
+	" security" -> KHASAWNEH2017
+	" security" -> HADEALABDULAZIZALHAMID2017
+	" security" -> Zhou2016
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> FagenLi2016
+	" security" -> TANPINGZHOU2018
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "S.M.RIAZULISLAM2015"
+	" security" -> SHANLIU2013
+	" security" -> YUDHISTIRANUGRAHA2015
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> ZHIHONGTIAN2018
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> RAMIREZ2016
+	" security" -> RAMIREZ2016
+	" security" -> Ge2018
+	" security" -> "LU-XINGYANG2017"
+	" security" -> ALTAWY2016
+	" security" -> STEPHENKHOU2017
+	" security" -> STEPHENKHOU2017
+	" security" -> Rahman2017
+	" security" -> Rahman2017
+	" security" -> Sabar2016
+	" big data" -> HADEALABDULAZIZALHAMID2017
+	" big data" -> Sabar2016
+	" cybersecurity" -> RAMIREZ2016
+	"Stochastic and information theory techniques to reduce large datasets and detect cyberattacks in ambient intelligence environments" -> Authors
+	Authors -> "BORJA BORDEL"
+	Authors -> "RAMÓN ALCARRIA"
+	Authors -> "TOMÁS ROBLES"
+	Authors -> "ÁLVARO SÁNCHEZ-PICOT"
+}

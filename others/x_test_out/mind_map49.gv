@@ -1,0 +1,39 @@
+strict digraph mind_map49 {
+	node [color=red shape=doubleoctagon]
+	"Platform-centric self-awareness as a key enabler for controlling changes in cps"
+	node [color=blue shape=diamond]
+	"Author
+MISCHA MÖSTL"
+	Keyword
+	"Platform-centric self-awareness as a key enabler for controlling changes in cps" -> "Author
+MISCHA MÖSTL"
+	"Platform-centric self-awareness as a key enabler for controlling changes in cps" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Cyber-physical systems"
+	Keyword -> "Cyber-physical systems"
+	" design automation"
+	Keyword -> " design automation"
+	" embedded systems"
+	Keyword -> " embedded systems"
+	" self-awareness"
+	Keyword -> " self-awareness"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		SHANLIU2013
+	}
+	"Cyber-physical systems" -> SHANLIU2013
+	"Platform-centric self-awareness as a key enabler for controlling changes in cps" -> Authors
+	Authors -> "MISCHA MÖSTL"
+	Authors -> "JOHANNES SCHLATOW"
+	Authors -> " ROLF ERNST"
+	Authors -> "NIKIL DUTT"
+	Authors -> " AHMED NASSAR"
+	Authors -> "AMIR RAHMANI"
+	Authors -> "FADI J.KURDAHI"
+	Authors -> " THOMAS WILD"
+	Authors -> "ARMIN SADIGHI"
+	Authors -> "ANDREAS HERKERSDORF"
+}

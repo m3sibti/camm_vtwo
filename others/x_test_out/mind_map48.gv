@@ -1,0 +1,52 @@
+strict digraph mind_map48 {
+	node [color=red shape=doubleoctagon]
+	"Improving interdisciplinary communication with standardized cyber security terminology: A literature review"
+	node [color=blue shape=diamond]
+	"Author
+CHOUCRI"
+	Keyword
+	"Improving interdisciplinary communication with standardized cyber security terminology":" A literature review" -> "Author
+CHOUCRI"
+	"Improving interdisciplinary communication with standardized cyber security terminology":" A literature review" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Cyber security"
+	Keyword -> "Cyber security"
+	" cyber-crime"
+	Keyword -> " cyber-crime"
+	" cybersecurity"
+	Keyword -> " cybersecurity"
+	" internet"
+	Keyword -> " internet"
+	" hacker"
+	Keyword -> " hacker"
+	" national security"
+	Keyword -> " national security"
+	" critical infrastructure"
+	Keyword -> " critical infrastructure"
+	" cyberspace"
+	Keyword -> " cyberspace"
+	" information technology"
+	Keyword -> " information technology"
+	" ICT"
+	Keyword -> " ICT"
+	" dictionaries"
+	Keyword -> " dictionaries"
+	" standardization"
+	Keyword -> " standardization"
+	" standards."
+	Keyword -> " standards."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		SHENGDING2018
+		BORJABORDEL2018
+	}
+	" cybersecurity" -> BORJABORDEL2018
+	" internet" -> SHENGDING2018
+	"Improving interdisciplinary communication with standardized cyber security terminology":" A literature review" -> Authors
+	Authors -> Ramirez
+	Authors -> " Robert and Choucri"
+	Authors -> " Nazli"
+}

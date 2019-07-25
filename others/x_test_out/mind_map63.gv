@@ -1,0 +1,17 @@
+strict digraph mind_map63 {
+	node [color=red shape=doubleoctagon]
+	"Conceptual modelling with specific focus on service-oriented systems j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Ferrarotti"
+	Keyword
+	"Conceptual modelling with specific focus on service-oriented systems j.ucs special issue" -> "Author
+Ferrarotti"
+	"Conceptual modelling with specific focus on service-oriented systems j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Conceptual modelling with specific focus on service-oriented systems j.ucs special issue" -> Authors
+	Authors -> "Flavio Ferrarotti"
+	Authors -> "Georg Grossmann"
+	Authors -> "Klaus-Dieter Schewe"
+	Authors -> "Qing Wang"
+}

@@ -1,0 +1,105 @@
+strict digraph mind_map47 {
+	node [color=red shape=doubleoctagon]
+	"Evidential network modeling for cyber-physical system state inference"
+	node [color=blue shape=diamond]
+	"Author
+IVO FRIEDBERG"
+	Keyword
+	"Evidential network modeling for cyber-physical system state inference" -> "Author
+IVO FRIEDBERG"
+	"Evidential network modeling for cyber-physical system state inference" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Communication technologies"
+	Keyword -> "Communication technologies"
+	" computer networks"
+	Keyword -> " computer networks"
+	" network security"
+	Keyword -> " network security"
+	" data system"
+	Keyword -> " data system"
+	" data processing"
+	Keyword -> " data processing"
+	" data integration"
+	Keyword -> " data integration"
+	" industry applications"
+	Keyword -> " industry applications"
+	" security"
+	Keyword -> " security"
+	" security management"
+	Keyword -> " security management"
+	" power engineering and energy"
+	Keyword -> " power engineering and energy"
+	" power systems"
+	Keyword -> " power systems"
+	" microgrid"
+	Keyword -> " microgrid"
+	" attack causality"
+	Keyword -> " attack causality"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		TANPINGZHOU2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		BORJABORDEL2018
+		"S.M.RIAZULISLAM2015"
+		SHANLIU2013
+		YUDHISTIRANUGRAHA2015
+		MARTINSPAN2018
+		ZHIHONGTIAN2018
+		RAMIREZ2016
+		Ge2018
+		"LU-XINGYANG2017"
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+	}
+	" network security" -> ZHIHONGTIAN2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PINGYUANZHANG2018
+	" security" -> KHASAWNEH2017
+	" security" -> HADEALABDULAZIZALHAMID2017
+	" security" -> Zhou2016
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> FagenLi2016
+	" security" -> TANPINGZHOU2018
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> BORJABORDEL2018
+	" security" -> "S.M.RIAZULISLAM2015"
+	" security" -> SHANLIU2013
+	" security" -> YUDHISTIRANUGRAHA2015
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> ZHIHONGTIAN2018
+	" security" -> RAMIREZ2016
+	" security" -> RAMIREZ2016
+	" security" -> Ge2018
+	" security" -> "LU-XINGYANG2017"
+	" security" -> ALTAWY2016
+	" security" -> STEPHENKHOU2017
+	" security" -> STEPHENKHOU2017
+	" security" -> Rahman2017
+	" security" -> Rahman2017
+	" security" -> Sabar2016
+	"Evidential network modeling for cyber-physical system state inference" -> Authors
+	Authors -> Friedberg
+	Authors -> " Ivo and Hong"
+	Authors -> " Xin and McLaughlin"
+	Authors -> " Kieran and Smith"
+	Authors -> " Paul and Miller"
+	Authors -> " Paul C"
+}

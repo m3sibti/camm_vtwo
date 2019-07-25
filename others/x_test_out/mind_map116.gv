@@ -1,0 +1,32 @@
+strict digraph mind_map116 {
+	node [color=red shape=doubleoctagon]
+	"A decentralized infrastructure for ubiquitous learning environments"
+	node [color=blue shape=diamond]
+	"Author
+Jorge Luis Victória Barbosa"
+	Keyword
+	"A decentralized infrastructure for ubiquitous learning environments" -> "Author
+Jorge Luis Victória Barbosa"
+	"A decentralized infrastructure for ubiquitous learning environments" -> Keyword
+	node [color=yellow shape=ellipse]
+	Decentralization
+	Keyword -> Decentralization
+	" Ubiquitous Computing"
+	Keyword -> " Ubiquitous Computing"
+	" Ubiquitous Learning"
+	Keyword -> " Ubiquitous Learning"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Barbosa2014
+	}
+	Decentralization -> Barbosa2014
+	" Ubiquitous Computing" -> Barbosa2014
+	" Ubiquitous Learning" -> Barbosa2014
+	"A decentralized infrastructure for ubiquitous learning environments" -> Authors
+	Authors -> "Jorge Luis Victória Barbosa"
+	Authors -> "Débora Nice Ferrari Barbosa"
+	Authors -> "Jezer Machado de Oliveira"
+}

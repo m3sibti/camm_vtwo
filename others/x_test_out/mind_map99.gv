@@ -1,0 +1,36 @@
+strict digraph mind_map99 {
+	node [color=red shape=doubleoctagon]
+	"Flexible feature binding with aspectj-based idioms"
+	node [color=blue shape=diamond]
+	"Author
+Andrade"
+	Keyword
+	"Flexible feature binding with aspectj-based idioms" -> "Author
+Andrade"
+	"Flexible feature binding with aspectj-based idioms" -> Keyword
+	node [color=yellow shape=ellipse]
+	": Software Product Lines"
+	Keyword -> "":" Software Product Lines"
+	" Aspect-Oriented Programming"
+	Keyword -> " Aspect-Oriented Programming"
+	" Idioms"
+	Keyword -> " Idioms"
+	" Flexible Feature Binding"
+	Keyword -> " Flexible Feature Binding"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Andrade2014
+	}
+	"":" Software Product Lines" -> Andrade2014
+	" Aspect-Oriented Programming" -> Andrade2014
+	" Idioms" -> Andrade2014
+	" Flexible Feature Binding" -> Andrade2014
+	"Flexible feature binding with aspectj-based idioms" -> Authors
+	Authors -> "Rodrigo Andrade"
+	Authors -> "Henrique Rebˆelo"
+	Authors -> "M´arcio Ribeiro"
+	Authors -> "Paulo Borba"
+}

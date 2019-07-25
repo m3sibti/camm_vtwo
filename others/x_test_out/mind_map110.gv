@@ -1,0 +1,35 @@
+strict digraph mind_map110 {
+	node [color=red shape=doubleoctagon]
+	"An adaptive intent resolving scheme for service discovery and integration"
+	node [color=blue shape=diamond]
+	"Author
+Cheng Zheng"
+	Keyword
+	"An adaptive intent resolving scheme for service discovery and integration" -> "Author
+Cheng Zheng"
+	"An adaptive intent resolving scheme for service discovery and integration" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Service Discovery and Integration"
+	Keyword -> "Service Discovery and Integration"
+	" Web Services"
+	Keyword -> " Web Services"
+	" Intents"
+	Keyword -> " Intents"
+	" Intent Resolving"
+	Keyword -> " Intent Resolving"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Zheng2014
+	}
+	"Service Discovery and Integration" -> Zheng2014
+	" Web Services" -> Zheng2014
+	" Intents" -> Zheng2014
+	" Intent Resolving" -> Zheng2014
+	"An adaptive intent resolving scheme for service discovery and integration" -> Authors
+	Authors -> "Cheng Zheng"
+	Authors -> "Weiming Shen"
+	Authors -> "Hamada Ghenniwa"
+}

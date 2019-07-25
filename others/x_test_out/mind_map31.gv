@@ -1,0 +1,48 @@
+strict digraph mind_map31 {
+	node [color=red shape=doubleoctagon]
+	"Challenges and opportunities in game artificial intelligence education using angry birds"
+	node [color=blue shape=diamond]
+	"Author
+KIM"
+	Keyword
+	"Challenges and opportunities in game artificial intelligence education using angry birds" -> "Author
+KIM"
+	"Challenges and opportunities in game artificial intelligence education using angry birds" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Computing education"
+	Keyword -> "Computing education"
+	" Angry Birds"
+	Keyword -> " Angry Birds"
+	" game"
+	Keyword -> " game"
+	" edutainment"
+	Keyword -> " edutainment"
+	" program design"
+	Keyword -> " program design"
+	" artificialmintelligence (AI)"
+	Keyword -> " artificialmintelligence (AI)"
+	" game competition"
+	Keyword -> " game competition"
+	" game-based learning."
+	Keyword -> " game-based learning."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		"MAN-JEKIM2018"
+		Xu2014
+		Pellas2014
+	}
+	" game" -> PETROVIC2018
+	" game" -> "MAN-JEKIM2018"
+	" game" -> "MAN-JEKIM2018"
+	" game" -> "MAN-JEKIM2018"
+	" game" -> Xu2014
+	" game" -> Pellas2014
+	"Challenges and opportunities in game artificial intelligence education using angry birds" -> Authors
+	Authors -> Yoon
+	Authors -> " Du-Mim and Kim"
+	Authors -> " Kyung-Joong"
+}

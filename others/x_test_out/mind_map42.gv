@@ -1,0 +1,35 @@
+strict digraph mind_map42 {
+	node [color=red shape=doubleoctagon]
+	"A framework for modeling cyber-physical switching attacks in smart grid"
+	node [color=blue shape=diamond]
+	"Author
+SHAN LIU"
+	Keyword
+	"A framework for modeling cyber-physical switching attacks in smart grid" -> "Author
+SHAN LIU"
+	"A framework for modeling cyber-physical switching attacks in smart grid" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Cyber-physical systems"
+	Keyword -> "Cyber-physical systems"
+	" security modeling"
+	Keyword -> " security modeling"
+	" variable structure systems"
+	Keyword -> " variable structure systems"
+	" coordinated switching attacks."
+	Keyword -> " coordinated switching attacks."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		MISCHAMOeSTL2018
+	}
+	"Cyber-physical systems" -> MISCHAMOeSTL2018
+	"A framework for modeling cyber-physical switching attacks in smart grid" -> Authors
+	Authors -> Liu
+	Authors -> " Shan and Mashayekh"
+	Authors -> " Salman and Kundur"
+	Authors -> " Deepa and Zourntos"
+	Authors -> " Takis and Butler-Purry"
+	Authors -> " Karen"
+}

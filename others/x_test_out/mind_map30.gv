@@ -1,0 +1,57 @@
+strict digraph mind_map30 {
+	node [color=red shape=doubleoctagon]
+	"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks"
+	node [color=blue shape=diamond]
+	"Author
+MIRZA GOLAM KIBRIA"
+	Keyword
+	"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks" -> "Author
+MIRZA GOLAM KIBRIA"
+	"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Big data analytics"
+	Keyword -> "Big data analytics"
+	" machine learning"
+	Keyword -> " machine learning"
+	" artificial intelligence"
+	Keyword -> " artificial intelligence"
+	" next-generation wireless."
+	Keyword -> " next-generation wireless."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		LINYUAN2018
+		FERNANDOORTEGA2018
+		ShirLiWang2017
+		YANGXIN2018
+		Hettiarachchi2014
+		ADADI2018
+		"MAN-JEKIM2018"
+		"AnnaL.Buczak2015"
+		"G-omez-S-anchez2018"
+		Rijo2014
+	}
+	" machine learning" -> PETROVIC2018
+	" machine learning" -> LINYUAN2018
+	" machine learning" -> FERNANDOORTEGA2018
+	" machine learning" -> YANGXIN2018
+	" machine learning" -> Hettiarachchi2014
+	" machine learning" -> ADADI2018
+	" machine learning" -> "AnnaL.Buczak2015"
+	" machine learning" -> "G-omez-S-anchez2018"
+	" machine learning" -> Rijo2014
+	" artificial intelligence" -> FERNANDOORTEGA2018
+	" artificial intelligence" -> ShirLiWang2017
+	" artificial intelligence" -> ADADI2018
+	" artificial intelligence" -> "MAN-JEKIM2018"
+	"Big data analytics, machine learning, and artificial intelligence in next-generation wireless networks" -> Authors
+	Authors -> "MIRZA GOLAM KIBRIA "
+	Authors -> "KIEN NGUYEN"
+	Authors -> "GABRIEL PORTO VILLARDI"
+	Authors -> "OU ZHA "
+	Authors -> "KENTARO ISHIZU"
+	Authors -> "FUMIHIDE KOJIMA"
+}

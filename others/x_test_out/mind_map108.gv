@@ -1,0 +1,39 @@
+strict digraph mind_map108 {
+	node [color=red shape=doubleoctagon]
+	"Understanding collaboration in volunteer computing systems"
+	node [color=blue shape=diamond]
+	"Author
+Davide Vega"
+	Keyword
+	"Understanding collaboration in volunteer computing systems" -> "Author
+Davide Vega"
+	"Understanding collaboration in volunteer computing systems" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Volunteer Computing"
+	Keyword -> "Volunteer Computing"
+	" Collaboration Strategy"
+	Keyword -> " Collaboration Strategy"
+	" Software Design"
+	Keyword -> " Software Design"
+	" Effort-Based Incentives"
+	Keyword -> " Effort-Based Incentives"
+	" Resource Sharing."
+	Keyword -> " Resource Sharing."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Vega2014
+	}
+	"Volunteer Computing" -> Vega2014
+	" Collaboration Strategy" -> Vega2014
+	" Software Design" -> Vega2014
+	" Effort-Based Incentives" -> Vega2014
+	" Resource Sharing." -> Vega2014
+	"Understanding collaboration in volunteer computing systems" -> Authors
+	Authors -> "Davide Vega"
+	Authors -> " Roc Meseguer"
+	Authors -> " Felix Freitag"
+	Authors -> "Sergio F. Ochoa"
+}

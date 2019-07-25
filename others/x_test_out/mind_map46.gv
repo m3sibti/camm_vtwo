@@ -1,0 +1,39 @@
+strict digraph mind_map46 {
+	node [color=red shape=doubleoctagon]
+	"A real-time correlation of host-level events in cyber range service for smart campus"
+	node [color=blue shape=diamond]
+	"Author
+ZHIHONG TIAN"
+	Keyword
+	"A real-time correlation of host-level events in cyber range service for smart campus" -> "Author
+ZHIHONG TIAN"
+	"A real-time correlation of host-level events in cyber range service for smart campus" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Security education"
+	Keyword -> "Security education"
+	" cyber range"
+	Keyword -> " cyber range"
+	" network security"
+	Keyword -> " network security"
+	" correlation"
+	Keyword -> " correlation"
+	" smart campus"
+	Keyword -> " smart campus"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		IVOFRIEDBERG2017
+	}
+	" network security" -> IVOFRIEDBERG2017
+	"A real-time correlation of host-level events in cyber range service for smart campus" -> Authors
+	Authors -> Tian
+	Authors -> " Zhihong and Cui"
+	Authors -> " Yu and An"
+	Authors -> " Lun and Su"
+	Authors -> " Shen and Yin"
+	Authors -> " Xiaoxia and Yin"
+	Authors -> " Lihua and Cui"
+	Authors -> " Xiang"
+}

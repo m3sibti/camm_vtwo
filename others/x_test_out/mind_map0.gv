@@ -1,0 +1,44 @@
+strict digraph mind_map0 {
+	node [color=red shape=doubleoctagon]
+	"A collaborative phy-aided technique for end-to-end iot device authentication"
+	node [color=blue shape=diamond]
+	"Author
+PENG HAO"
+	Keyword
+	"A collaborative phy-aided technique for end-to-end iot device authentication" -> "Author
+PENG HAO"
+	"A collaborative phy-aided technique for end-to-end iot device authentication" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Device authentication"
+	Keyword -> "Device authentication"
+	" Internet of Things"
+	Keyword -> " Internet of Things"
+	" physical layer security"
+	Keyword -> " physical layer security"
+	" collaborative security"
+	Keyword -> " collaborative security"
+	" radio-frequency fingerprinting"
+	Keyword -> " radio-frequency fingerprinting"
+	" cross-layer security."
+	Keyword -> " cross-layer security."
+	node [color=black shape=circle]
+	JinhuiLiu2016
+	"Author
+PENG HAO" -> JinhuiLiu2016
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"LEHLOGONOLOP.I.LEDWABA2018"
+		Ge2018
+		Cubo2014a
+	}
+	" Internet of Things" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	" Internet of Things" -> Ge2018
+	" Internet of Things" -> Cubo2014a
+	"A collaborative phy-aided technique for end-to-end iot device authentication" -> Authors
+	Authors -> "PENG HAO"
+	Authors -> "XIANBIN WANG"
+	Authors -> "WEIMING SHEN"
+}

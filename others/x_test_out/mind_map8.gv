@@ -1,0 +1,36 @@
+strict digraph mind_map8 {
+	node [color=red shape=doubleoctagon]
+	"A novel efficient pairing-free cp-abe based on elliptic curve cryptography for iot"
+	node [color=blue shape=diamond]
+	"Author
+SHENG DING"
+	Keyword
+	"A novel efficient pairing-free cp-abe based on elliptic curve cryptography for iot" -> "Author
+SHENG DING"
+	"A novel efficient pairing-free cp-abe based on elliptic curve cryptography for iot" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Access control"
+	Keyword -> "Access control"
+	" internet of things"
+	Keyword -> " internet of things"
+	" CP-ABE"
+	Keyword -> " CP-ABE"
+	" elliptic curve"
+	Keyword -> " elliptic curve"
+	" pairing-free."
+	Keyword -> " pairing-free."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		SHUMINGQIU2017
+		ALTAWY2016
+	}
+	"Access control" -> ALTAWY2016
+	" elliptic curve" -> SHUMINGQIU2017
+	"A novel efficient pairing-free cp-abe based on elliptic curve cryptography for iot" -> Authors
+	Authors -> "SHENG DING"
+	Authors -> "CHEN LI"
+	Authors -> "HUI LI"
+}

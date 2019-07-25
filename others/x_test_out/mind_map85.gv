@@ -1,0 +1,41 @@
+strict digraph mind_map85 {
+	node [color=red shape=doubleoctagon]
+	"Defining and validating a feature-driven requirements engineering approach"
+	node [color=blue shape=diamond]
+	"Author
+Oliveira"
+	Keyword
+	"Defining and validating a feature-driven requirements engineering approach" -> "Author
+Oliveira"
+	"Defining and validating a feature-driven requirements engineering approach" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Software Product Lines"
+	Keyword -> "Software Product Lines"
+	" Requirements Specification"
+	Keyword -> " Requirements Specification"
+	" Reuse"
+	Keyword -> " Reuse"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Oliveira2014
+		Accioly2014
+		Alferez2014
+		Mello2014
+		Andrade2014
+	}
+	"Software Product Lines" -> Oliveira2014
+	"Software Product Lines" -> Accioly2014
+	"Software Product Lines" -> Alferez2014
+	"Software Product Lines" -> Andrade2014
+	" Requirements Specification" -> Oliveira2014
+	" Reuse" -> Oliveira2014
+	" Reuse" -> Mello2014
+	"Defining and validating a feature-driven requirements engineering approach" -> Authors
+	Authors -> "Rephael Pereira"
+	Authors -> "David Blanes"
+	Authors -> "Javeir Gonalez"
+	Authors -> "Emilio Isharfan"
+}

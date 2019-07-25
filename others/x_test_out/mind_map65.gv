@@ -1,0 +1,44 @@
+strict digraph mind_map65 {
+	node [color=red shape=doubleoctagon]
+	"A study of learning-by-doing in moocs through the integration of third-party external tools: Comparison of synchronous and asynchronous running modes"
+	node [color=blue shape=diamond]
+	"Author
+Carlos Alario-Hoyos"
+	Keyword
+	"A study of learning-by-doing in moocs through the integration of third-party external tools":" Comparison of synchronous and asynchronous running modes" -> "Author
+Carlos Alario-Hoyos"
+	"A study of learning-by-doing in moocs through the integration of third-party external tools":" Comparison of synchronous and asynchronous running modes" -> Keyword
+	node [color=yellow shape=ellipse]
+	MOOCs
+	Keyword -> MOOCs
+	" programming"
+	Keyword -> " programming"
+	" tools"
+	Keyword -> " tools"
+	" Codeboard"
+	Keyword -> " Codeboard"
+	" instructor-paced"
+	Keyword -> " instructor-paced"
+	" self-paced"
+	Keyword -> " self-paced"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"Alario-Hoyos2018"
+		Amarasinghe2018
+		Ferreira2014
+	}
+	MOOCs -> "Alario-Hoyos2018"
+	MOOCs -> Amarasinghe2018
+	" programming" -> "Alario-Hoyos2018"
+	" tools" -> "Alario-Hoyos2018"
+	" tools" -> Ferreira2014
+	" Codeboard" -> "Alario-Hoyos2018"
+	" instructor-paced" -> "Alario-Hoyos2018"
+	" self-paced" -> "Alario-Hoyos2018"
+	"A study of learning-by-doing in moocs through the integration of third-party external tools":" Comparison of synchronous and asynchronous running modes" -> Authors
+	Authors -> "Jorge Ruiz-Magaña"
+	Authors -> "Jorge Blasco"
+}

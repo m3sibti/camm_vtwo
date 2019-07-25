@@ -1,0 +1,57 @@
+strict digraph mind_map34 {
+	node [color=red shape=doubleoctagon]
+	"Next generation data classification and linkage role of probabilistic models and artificial intelligence"
+	node [color=blue shape=diamond]
+	"Author
+Gayan Prasad Hettiarachchi"
+	Keyword
+	"Next generation data classification and linkage role of probabilistic models and artificial intelligence" -> "Author
+Gayan Prasad Hettiarachchi"
+	"Next generation data classification and linkage role of probabilistic models and artificial intelligence" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Big data"
+	Keyword -> "Big data"
+	" classification"
+	Keyword -> " classification"
+	" data linkage"
+	Keyword -> " data linkage"
+	" machine learning"
+	Keyword -> " machine learning"
+	" phonetic matching"
+	Keyword -> " phonetic matching"
+	" probabilistic models"
+	Keyword -> " probabilistic models"
+	" string comparison"
+	Keyword -> " string comparison"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		LINYUAN2018
+		FERNANDOORTEGA2018
+		MIRZAGOLAMKIBRIA2018
+		YANGXIN2018
+		ADADI2018
+		"AnnaL.Buczak2015"
+		"G-omez-S-anchez2018"
+		Rijo2014
+	}
+	"Big data" -> MIRZAGOLAMKIBRIA2018
+	" classification" -> LINYUAN2018
+	" machine learning" -> PETROVIC2018
+	" machine learning" -> LINYUAN2018
+	" machine learning" -> FERNANDOORTEGA2018
+	" machine learning" -> MIRZAGOLAMKIBRIA2018
+	" machine learning" -> YANGXIN2018
+	" machine learning" -> ADADI2018
+	" machine learning" -> "AnnaL.Buczak2015"
+	" machine learning" -> "G-omez-S-anchez2018"
+	" machine learning" -> Rijo2014
+	"Next generation data classification and linkage role of probabilistic models and artificial intelligence" -> Authors
+	Authors -> "Gayan Prasad Hettiarachchi"
+	Authors -> "Dhammika Suresh Hettiarachchi"
+	Authors -> "Nadeeka Nilmini Hettiarachchi"
+	Authors -> "Azusa Ebisuya "
+}

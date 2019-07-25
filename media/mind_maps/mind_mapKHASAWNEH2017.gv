@@ -1,0 +1,54 @@
+strict digraph mind_mapKHASAWNEH2017 {
+	node [color=red shape=doubleoctagon]
+	"A secure and efficient authentication mechanism applied to cognitive radio networks"
+	node [color=blue shape=diamond]
+	"Author
+AGARWAL"
+	Keyword
+	"A secure and efficient authentication mechanism applied to cognitive radio networks" -> "Author
+AGARWAL"
+	"A secure and efficient authentication mechanism applied to cognitive radio networks" -> Keyword
+	"A secure and efficient authentication mechanism applied to cognitive radio networks" -> "Co-Authors"
+	node [color=yellow shape=ellipse]
+	Authentication
+	Keyword -> Authentication
+	" cognitive radio"
+	Keyword -> " cognitive radio"
+	" security"
+	Keyword -> " security"
+	" symmetric key"
+	Keyword -> " symmetric key"
+	" cryptography."
+	Keyword -> " cryptography."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		FagenLi2016
+		ZUOWEN2018
+		"S.M.RIAZULISLAM2015"
+		BORJABORDEL2018
+		MARTINSPAN2018
+		IVOFRIEDBERG2017
+		"LU-XINGYANG2017"
+	}
+	Authentication -> ZUOWEN2018
+	" security" -> FagenLi2016
+	" security" -> "S.M.RIAZULISLAM2015"
+	" security" -> BORJABORDEL2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> "LU-XINGYANG2017"
+	" cryptography." -> FagenLi2016
+	node [color=purple shape=rectangle]
+	"Co-Authors" -> "MAHMOUD KHASAWNEH"
+	"Co-Authors" -> "ANJALI AGARWAL"
+	node [color=blue shape=octagon]
+	"MAHMOUD KHASAWNEH" -> "A secure and efficient authentication mechanism applied to cognitive radio networks"
+	"ANJALI AGARWAL" -> "A secure and efficient authentication mechanism applied to cognitive radio networks"
+}

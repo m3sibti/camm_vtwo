@@ -1,0 +1,35 @@
+strict digraph mind_map79 {
+	node [color=red shape=doubleoctagon]
+	"Multilevel and coordinated self-management in autonomic systems based on service bus"
+	node [color=blue shape=diamond]
+	"Author
+Mohamed Zouari"
+	Keyword
+	"Multilevel and coordinated self-management in autonomic systems based on service bus" -> "Author
+Mohamed Zouari"
+	"Multilevel and coordinated self-management in autonomic systems based on service bus" -> Keyword
+	node [color=yellow shape=ellipse]
+	"autonomic computing"
+	Keyword -> "autonomic computing"
+	" quality of service"
+	Keyword -> " quality of service"
+	" enterprise service bus"
+	Keyword -> " enterprise service bus"
+	" distributed and coordinated management"
+	Keyword -> " distributed and coordinated management"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Zouari2014
+	}
+	"autonomic computing" -> Zouari2014
+	" quality of service" -> Zouari2014
+	" enterprise service bus" -> Zouari2014
+	" distributed and coordinated management" -> Zouari2014
+	"Multilevel and coordinated self-management in autonomic systems based on service bus" -> Authors
+	Authors -> "Mohamed Zouari"
+	Authors -> "Cod´e Diop"
+	Authors -> "Ernesto Exposito"
+}

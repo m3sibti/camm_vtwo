@@ -1,0 +1,39 @@
+strict digraph mind_map73 {
+	node [color=red shape=doubleoctagon]
+	"Towards formal linear cryptanalysis using hol4"
+	node [color=blue shape=diamond]
+	"Author
+Hasan"
+	Keyword
+	"Towards formal linear cryptanalysis using hol4" -> "Author
+Hasan"
+	"Towards formal linear cryptanalysis using hol4" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Formal Verification"
+	Keyword -> "Formal Verification"
+	" Higher-order logic"
+	Keyword -> " Higher-order logic"
+	" Probability Theory"
+	Keyword -> " Probability Theory"
+	" Cryptography"
+	Keyword -> " Cryptography"
+	" Theorem Proving."
+	Keyword -> " Theorem Proving."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		ZHINIANG2017
+		HouzhenWang2016
+		Hasan2014
+	}
+	"Formal Verification" -> Hasan2014
+	" Higher-order logic" -> Hasan2014
+	" Probability Theory" -> Hasan2014
+	" Cryptography" -> ZHINIANG2017
+	" Cryptography" -> HouzhenWang2016
+	" Cryptography" -> Hasan2014
+	" Theorem Proving." -> Hasan2014
+	"Towards formal linear cryptanalysis using hol4" -> Authors
+}

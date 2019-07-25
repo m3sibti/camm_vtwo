@@ -1,0 +1,39 @@
+strict digraph mind_map117 {
+	node [color=red shape=doubleoctagon]
+	"City ads: Embedding virtual worlds and augmented reality in everyday educational practice"
+	node [color=blue shape=diamond]
+	"Author
+Juan A. Muñoz-Cristóbal"
+	Keyword
+	"City ads":" Embedding virtual worlds and augmented reality in everyday educational practice" -> "Author
+Juan A. Muñoz-Cristóbal"
+	"City ads":" Embedding virtual worlds and augmented reality in everyday educational practice" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Virtual world"
+	Keyword -> "Virtual world"
+	" Augmented reality"
+	Keyword -> " Augmented reality"
+	" Immersion"
+	Keyword -> " Immersion"
+	" Ubiquitous learning"
+	Keyword -> " Ubiquitous learning"
+	" Seamless learning"
+	Keyword -> " Seamless learning"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"Munoz-Cristobal2014"
+	}
+	"Virtual world" -> "Munoz-Cristobal2014"
+	" Augmented reality" -> "Munoz-Cristobal2014"
+	" Immersion" -> "Munoz-Cristobal2014"
+	" Ubiquitous learning" -> "Munoz-Cristobal2014"
+	" Seamless learning" -> "Munoz-Cristobal2014"
+	"City ads":" Embedding virtual worlds and augmented reality in everyday educational practice" -> Authors
+	Authors -> "Juan A. Muñoz-Cristóbal"
+	Authors -> "Alejandra Martínez-Monés"
+	Authors -> "Juan I. Asensio-Pérez"
+	Authors -> "Sara L. Villagrá-Sobrino"
+}

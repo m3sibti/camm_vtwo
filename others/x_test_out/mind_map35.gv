@@ -1,0 +1,37 @@
+strict digraph mind_map35 {
+	node [color=red shape=doubleoctagon]
+	"Parallel driving in cpss: A unified approach for transport automation and vehicle intelligence"
+	node [color=blue shape=diamond]
+	"Author
+Fei-Yue Wang"
+	Keyword
+	"Parallel driving in cpss":" A unified approach for transport automation and vehicle intelligence" -> "Author
+Fei-Yue Wang"
+	"Parallel driving in cpss":" A unified approach for transport automation and vehicle intelligence" -> Keyword
+	node [color=yellow shape=ellipse]
+	"ACP theory"
+	Keyword -> "ACP theory"
+	" connected automated driving"
+	Keyword -> " connected automated driving"
+	" cyber-physical-social systems (CPSS)"
+	Keyword -> " cyber-physical-social systems (CPSS)"
+	" iHorizon"
+	Keyword -> " iHorizon"
+	" parallel driving"
+	Keyword -> " parallel driving"
+	" parallel horizon"
+	Keyword -> " parallel horizon"
+	" parallel learning"
+	Keyword -> " parallel learning"
+	" parallel reinforcement learning"
+	Keyword -> " parallel reinforcement learning"
+	" parallel testing"
+	Keyword -> " parallel testing"
+	"Parallel driving in cpss":" A unified approach for transport automation and vehicle intelligence" -> Authors
+	Authors -> "Fei-Yue Wang"
+	Authors -> "Nan-Ning Zheng"
+	Authors -> "Dongpu Cao"
+	Authors -> "Clara Marina Martinez"
+	Authors -> "Li Li"
+	Authors -> "Teng Liu"
+}

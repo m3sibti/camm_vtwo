@@ -1,0 +1,41 @@
+strict digraph mind_map74 {
+	node [color=red shape=doubleoctagon]
+	"Combining psycho-linguistic, content-based and chat-based features to detect predation in chatrooms"
+	node [color=blue shape=diamond]
+	"Author
+Parapar"
+	Keyword
+	"Combining psycho-linguistic, content-based and chat-based features to detect predation in chatrooms" -> "Author
+Parapar"
+	"Combining psycho-linguistic, content-based and chat-based features to detect predation in chatrooms" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Sexual predation"
+	Keyword -> "Sexual predation"
+	" Cybercrime"
+	Keyword -> " Cybercrime"
+	" Text Mining"
+	Keyword -> " Text Mining"
+	" Machine Learning"
+	Keyword -> " Machine Learning"
+	" Support Vector Machines"
+	Keyword -> " Support Vector Machines"
+	" Psycho-linguistic analysis"
+	Keyword -> " Psycho-linguistic analysis"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Parapar2014
+	}
+	"Sexual predation" -> Parapar2014
+	" Cybercrime" -> Parapar2014
+	" Text Mining" -> Parapar2014
+	" Machine Learning" -> Parapar2014
+	" Support Vector Machines" -> Parapar2014
+	" Psycho-linguistic analysis" -> Parapar2014
+	"Combining psycho-linguistic, content-based and chat-based features to detect predation in chatrooms" -> Authors
+	Authors -> "Javier Parapar"
+	Authors -> "David E. Losada"
+	Authors -> "Alvaro Barreiro"
+}

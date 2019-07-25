@@ -1,0 +1,58 @@
+strict digraph mind_map102 {
+	node [color=red shape=doubleoctagon]
+	"Dynamic verification of mashups of service-oriented things through a mediation platform"
+	node [color=blue shape=diamond]
+	"Author
+Antonio Brogi"
+	Keyword
+	"Dynamic verification of mashups of service-oriented things through a mediation platform" -> "Author
+Antonio Brogi"
+	"Dynamic verification of mashups of service-oriented things through a mediation platform" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Run-Time Verification"
+	Keyword -> "Run-Time Verification"
+	" Composition"
+	Keyword -> " Composition"
+	" Mashup"
+	Keyword -> " Mashup"
+	" Behaviour"
+	Keyword -> " Behaviour"
+	" Service-Oriented Things"
+	Keyword -> " Service-Oriented Things"
+	" Internet of Things"
+	Keyword -> " Internet of Things"
+	" Web of Things"
+	Keyword -> " Web of Things"
+	" Complex Event Processing"
+	Keyword -> " Complex Event Processing"
+	" Mediation Patterns"
+	Keyword -> " Mediation Patterns"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		"LEHLOGONOLOP.I.LEDWABA2018"
+		Ge2018
+		Cubo2014a
+	}
+	"Run-Time Verification" -> Cubo2014a
+	" Composition" -> Cubo2014a
+	" Mashup" -> Cubo2014a
+	" Behaviour" -> Cubo2014a
+	" Service-Oriented Things" -> Cubo2014a
+	" Internet of Things" -> PENGHAO2018
+	" Internet of Things" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	" Internet of Things" -> Ge2018
+	" Internet of Things" -> Cubo2014a
+	" Web of Things" -> Cubo2014a
+	" Complex Event Processing" -> Cubo2014a
+	" Mediation Patterns" -> Cubo2014a
+	"Dynamic verification of mashups of service-oriented things through a mediation platform" -> Authors
+	Authors -> "Antonio Brogi"
+	Authors -> "Javier Cubo"
+	Authors -> "Laura González"
+	Authors -> "Ernesto Pimentel"
+	Authors -> "Raúl Ruggia"
+}

@@ -1,0 +1,53 @@
+strict digraph mind_map103 {
+	node [color=red shape=doubleoctagon]
+	"User-centered requirement engineering for accessible chats in m-learning"
+	node [color=blue shape=diamond]
+	"Author
+Rocío Calvo"
+	Keyword
+	"User-centered requirement engineering for accessible chats in m-learning" -> "Author
+Rocío Calvo"
+	"User-centered requirement engineering for accessible chats in m-learning" -> Keyword
+	node [color=yellow shape=ellipse]
+	Accessibility
+	Keyword -> Accessibility
+	" mobile"
+	Keyword -> " mobile"
+	" chat"
+	Keyword -> " chat"
+	" Human Computer Interaction"
+	Keyword -> " Human Computer Interaction"
+	" Software Engineering"
+	Keyword -> " Software Engineering"
+	" Requirements Engineering"
+	Keyword -> " Requirements Engineering"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Rahman2017
+		Accioly2014
+		Alferez2014
+		Mello2014
+		Calvo2014
+		CarmenFernandezPanadero2014
+		Baloian2014
+	}
+	Accessibility -> Calvo2014
+	Accessibility -> CarmenFernandezPanadero2014
+	" mobile" -> Rahman2017
+	" mobile" -> Calvo2014
+	" mobile" -> Baloian2014
+	" chat" -> Calvo2014
+	" Human Computer Interaction" -> Calvo2014
+	" Software Engineering" -> Accioly2014
+	" Software Engineering" -> Mello2014
+	" Software Engineering" -> Calvo2014
+	" Requirements Engineering" -> Alferez2014
+	" Requirements Engineering" -> Calvo2014
+	"User-centered requirement engineering for accessible chats in m-learning" -> Authors
+	Authors -> "Rocío Calvo"
+	Authors -> "Ana Iglesias"
+	Authors -> "Lourdes Moreno"
+}

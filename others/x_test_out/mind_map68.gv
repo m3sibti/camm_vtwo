@@ -1,0 +1,36 @@
+strict digraph mind_map68 {
+	node [color=red shape=doubleoctagon]
+	"Sustaining continuous collaborative learning flows in moocs: Orchestration agent approach"
+	node [color=blue shape=diamond]
+	"Author
+Ishari Amarasinghe"
+	Keyword
+	"Sustaining continuous collaborative learning flows in moocs":" Orchestration agent approach" -> "Author
+Ishari Amarasinghe"
+	"Sustaining continuous collaborative learning flows in moocs":" Orchestration agent approach" -> Keyword
+	node [color=yellow shape=ellipse]
+	": Computer-Supported Collaborative Learning (CSCL)"
+	Keyword -> "":" Computer-Supported Collaborative Learning (CSCL)"
+	" Intelligent Agents"
+	Keyword -> " Intelligent Agents"
+	" Massive Open Online Courses (MOOCs)"
+	Keyword -> " Massive Open Online Courses (MOOCs)"
+	" Collaborative Learning Flow Patterns (CLFPs)"
+	Keyword -> " Collaborative Learning Flow Patterns (CLFPs)"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Amarasinghe2018
+	}
+	"":" Computer-Supported Collaborative Learning (CSCL)" -> Amarasinghe2018
+	" Intelligent Agents" -> Amarasinghe2018
+	" Massive Open Online Courses (MOOCs)" -> Amarasinghe2018
+	" Collaborative Learning Flow Patterns (CLFPs)" -> Amarasinghe2018
+	"Sustaining continuous collaborative learning flows in moocs":" Orchestration agent approach" -> Authors
+	Authors -> "Ishari Amarasinghe"
+	Authors -> " Davinia Hernández-Leo"
+	Authors -> " Kalpani Manathung"
+	Authors -> "Anders Jonsson"
+}

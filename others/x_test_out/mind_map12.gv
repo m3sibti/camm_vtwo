@@ -1,0 +1,26 @@
+strict digraph mind_map12 {
+	node [color=red shape=doubleoctagon]
+	"New public-key cryptosystem based on the morphism of polynomials problem"
+	node [color=blue shape=diamond]
+	"Author
+Houzhen Wang"
+	Keyword
+	"New public-key cryptosystem based on the morphism of polynomials problem" -> "Author
+Houzhen Wang"
+	"New public-key cryptosystem based on the morphism of polynomials problem" -> Keyword
+	node [color=yellow shape=ellipse]
+	": public key cryptosystem"
+	Keyword -> "":" public key cryptosystem"
+	" key exchange"
+	Keyword -> " key exchange"
+	" Multivariate Public Key Cryptography (MPKC)"
+	Keyword -> " Multivariate Public Key Cryptography (MPKC)"
+	" Morphism of Polynomials (MP) problem"
+	Keyword -> " Morphism of Polynomials (MP) problem"
+	"New public-key cryptosystem based on the morphism of polynomials problem" -> Authors
+	Authors -> "Houzhen Wang"
+	Authors -> "Huanguo Zhang"
+	Authors -> "Shaowu Mao"
+	Authors -> "Wanqing Wu"
+	Authors -> "Liqiang Zhang"
+}

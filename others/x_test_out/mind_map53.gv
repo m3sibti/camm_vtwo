@@ -1,0 +1,35 @@
+strict digraph mind_map53 {
+	node [color=red shape=doubleoctagon]
+	"System-agnostic security domains for understanding and prioritizing systems security engineering efforts"
+	node [color=blue shape=diamond]
+	"Author
+STEPHEN KHOU"
+	Keyword
+	"System-agnostic security domains for understanding and prioritizing systems security engineering efforts" -> "Author
+STEPHEN KHOU"
+	"System-agnostic security domains for understanding and prioritizing systems security engineering efforts" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Security domains"
+	Keyword -> "Security domains"
+	" systems security engineering"
+	Keyword -> " systems security engineering"
+	" systems engineering"
+	Keyword -> " systems engineering"
+	" security engineering."
+	Keyword -> " security engineering."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		MARTINSPAN2018
+	}
+	" systems security engineering" -> MARTINSPAN2018
+	" systems engineering" -> MARTINSPAN2018
+	" security engineering." -> MARTINSPAN2018
+	"System-agnostic security domains for understanding and prioritizing systems security engineering efforts" -> Authors
+	Authors -> Khou
+	Authors -> " Stephen and Mailloux"
+	Authors -> " Logan O and Pecarina"
+	Authors -> " John M"
+}

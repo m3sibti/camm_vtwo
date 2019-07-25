@@ -1,0 +1,39 @@
+strict digraph mind_map92 {
+	node [color=red shape=doubleoctagon]
+	"Thesaurus-based tag clouds for test-driven code search"
+	node [color=blue shape=diamond]
+	"Author
+Otavio A. L. Lemos"
+	Keyword
+	"Thesaurus-based tag clouds for test-driven code search" -> "Author
+Otavio A. L. Lemos"
+	"Thesaurus-based tag clouds for test-driven code search" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Test-driven code search"
+	Keyword -> "Test-driven code search"
+	" code search"
+	Keyword -> " code search"
+	" software reuse"
+	Keyword -> " software reuse"
+	" tag clouds"
+	Keyword -> " tag clouds"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Lemos2014
+	}
+	"Test-driven code search" -> Lemos2014
+	" code search" -> Lemos2014
+	" code search" -> Lemos2014
+	" software reuse" -> Lemos2014
+	" tag clouds" -> Lemos2014
+	"Thesaurus-based tag clouds for test-driven code search" -> Authors
+	Authors -> "Otavio A. L. Lemos"
+	Authors -> " Adriano C. de Paula"
+	Authors -> " Gustavo Konishi"
+	Authors -> "Sushil Bajracharya"
+	Authors -> "Joel Ossher"
+	Authors -> " Cristina Lopes"
+}

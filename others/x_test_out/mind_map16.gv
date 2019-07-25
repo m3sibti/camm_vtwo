@@ -1,0 +1,49 @@
+strict digraph mind_map16 {
+	node [color=red shape=doubleoctagon]
+	"Secure delegation-based authentication for telecare medicine information systems"
+	node [color=blue shape=diamond]
+	"Author
+TAN"
+	Keyword
+	"Secure delegation-based authentication for telecare medicine information systems" -> "Author
+TAN"
+	"Secure delegation-based authentication for telecare medicine information systems" -> Keyword
+	node [color=yellow shape=ellipse]
+	Authentication
+	Keyword -> Authentication
+	" BAN"
+	Keyword -> " BAN"
+	" cryptography"
+	Keyword -> " cryptography"
+	" delegation."
+	Keyword -> " delegation."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		FagenLi2016
+		SHUMINGQIU2017
+		TANPINGZHOU2018
+		JaihuiChen2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		JinhuiLiu2016
+		Vleju2014
+	}
+	Authentication -> KHASAWNEH2017
+	Authentication -> Vleju2014
+	" BAN" -> SHUMINGQIU2017
+	" cryptography" -> PINGYUANZHANG2018
+	" cryptography" -> KHASAWNEH2017
+	" cryptography" -> HADEALABDULAZIZALHAMID2017
+	" cryptography" -> FagenLi2016
+	" cryptography" -> SHUMINGQIU2017
+	" cryptography" -> TANPINGZHOU2018
+	" cryptography" -> JaihuiChen2018
+	" cryptography" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" cryptography" -> JinhuiLiu2016
+	"Secure delegation-based authentication for telecare medicine information systems" -> Authors
+}

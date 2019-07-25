@@ -1,0 +1,28 @@
+strict digraph mind_map58 {
+	node [color=red shape=doubleoctagon]
+	"Adapting an awareness tool for massive courses: The case of classon"
+	node [color=blue shape=diamond]
+	"Author
+Israel Gutiérrez-Rojas"
+	Keyword
+	"Adapting an awareness tool for massive courses":" The case of classon" -> "Author
+Israel Gutiérrez-Rojas"
+	"Adapting an awareness tool for massive courses":" The case of classon" -> Keyword
+	node [color=yellow shape=ellipse]
+	"teacher awareness"
+	Keyword -> "teacher awareness"
+	" massive learning environments"
+	Keyword -> " massive learning environments"
+	" face-to-face teaching"
+	Keyword -> " face-to-face teaching"
+	" just-intime teaching"
+	Keyword -> " just-intime teaching"
+	" scalability"
+	Keyword -> " scalability"
+	" active learning"
+	Keyword -> " active learning"
+	"Adapting an awareness tool for massive courses":" The case of classon" -> Authors
+	Authors -> "Israel Gutiérrez-Rojas"
+	Authors -> "Raquel M. Crespo-García"
+	Authors -> "Carlos Delgado Kloos"
+}

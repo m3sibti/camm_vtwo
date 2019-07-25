@@ -1,0 +1,38 @@
+strict digraph mind_map60 {
+	node [color=red shape=doubleoctagon]
+	"Identifying fuzzy controllers parameters by fuzzy clustering technique"
+	node [color=blue shape=diamond]
+	"Author
+Chenaina"
+	Keyword
+	"Identifying fuzzy controllers parameters by fuzzy clustering technique" -> "Author
+Chenaina"
+	"Identifying fuzzy controllers parameters by fuzzy clustering technique" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Fuzzy logic"
+	Keyword -> "Fuzzy logic"
+	" Fuzzy Logic Controllers"
+	Keyword -> " Fuzzy Logic Controllers"
+	" Vector Space"
+	Keyword -> " Vector Space"
+	" Classes of Fuzzy Controllers"
+	Keyword -> " Classes of Fuzzy Controllers"
+	" Clustering and Learning"
+	Keyword -> " Clustering and Learning"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Chenaina2014
+	}
+	"Fuzzy logic" -> Chenaina2014
+	" Fuzzy Logic Controllers" -> Chenaina2014
+	" Vector Space" -> Chenaina2014
+	" Classes of Fuzzy Controllers" -> Chenaina2014
+	" Clustering and Learning" -> Chenaina2014
+	"Identifying fuzzy controllers parameters by fuzzy clustering technique" -> Authors
+	Authors -> Chenaina
+	Authors -> " Tarek and Alraddadi"
+	Authors -> " Abdulaziz"
+}

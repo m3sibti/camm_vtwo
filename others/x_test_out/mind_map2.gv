@@ -1,0 +1,92 @@
+strict digraph mind_map2 {
+	node [color=red shape=doubleoctagon]
+	"A secure and efficient authentication mechanism applied to cognitive radio networks"
+	node [color=blue shape=diamond]
+	"Author
+AGARWAL"
+	Keyword
+	"A secure and efficient authentication mechanism applied to cognitive radio networks" -> "Author
+AGARWAL"
+	"A secure and efficient authentication mechanism applied to cognitive radio networks" -> Keyword
+	node [color=yellow shape=ellipse]
+	Authentication
+	Keyword -> Authentication
+	" cognitive radio"
+	Keyword -> " cognitive radio"
+	" security"
+	Keyword -> " security"
+	" symmetric key"
+	Keyword -> " symmetric key"
+	" cryptography."
+	Keyword -> " cryptography."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		TANPINGZHOU2018
+		ZUOWEN2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		BORJABORDEL2018
+		"S.M.RIAZULISLAM2015"
+		SHANLIU2013
+		YUDHISTIRANUGRAHA2015
+		MARTINSPAN2018
+		ZHIHONGTIAN2018
+		IVOFRIEDBERG2017
+		RAMIREZ2016
+		Ge2018
+		"LU-XINGYANG2017"
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+		Vleju2014
+	}
+	Authentication -> ZUOWEN2018
+	Authentication -> Vleju2014
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PINGYUANZHANG2018
+	" security" -> HADEALABDULAZIZALHAMID2017
+	" security" -> Zhou2016
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> FagenLi2016
+	" security" -> TANPINGZHOU2018
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> BORJABORDEL2018
+	" security" -> "S.M.RIAZULISLAM2015"
+	" security" -> SHANLIU2013
+	" security" -> YUDHISTIRANUGRAHA2015
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> ZHIHONGTIAN2018
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> RAMIREZ2016
+	" security" -> RAMIREZ2016
+	" security" -> Ge2018
+	" security" -> "LU-XINGYANG2017"
+	" security" -> ALTAWY2016
+	" security" -> STEPHENKHOU2017
+	" security" -> STEPHENKHOU2017
+	" security" -> Rahman2017
+	" security" -> Rahman2017
+	" security" -> Sabar2016
+	" cryptography." -> FagenLi2016
+	" cryptography." -> "MOHAMMEDA.M.ABDULLAH2016"
+	"A secure and efficient authentication mechanism applied to cognitive radio networks" -> Authors
+	Authors -> "MAHMOUD KHASAWNEH"
+	Authors -> "ANJALI AGARWAL"
+}

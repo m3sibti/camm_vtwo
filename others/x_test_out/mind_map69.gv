@@ -1,0 +1,37 @@
+strict digraph mind_map69 {
+	node [color=red shape=doubleoctagon]
+	"An approach to build in situ models for the prediction of the decrease of academic engagement indicators in massive open online courses"
+	node [color=blue shape=diamond]
+	"Author
+G-omez-S-anchez"
+	Keyword
+	"An approach to build in situ models for the prediction of the decrease of academic engagement indicators in massive open online courses" -> "Author
+G-omez-S-anchez"
+	"An approach to build in situ models for the prediction of the decrease of academic engagement indicators in massive open online courses" -> Keyword
+	node [color=yellow shape=ellipse]
+	MOOC
+	Keyword -> MOOC
+	" engagement"
+	Keyword -> " engagement"
+	" supervised machine learning"
+	Keyword -> " supervised machine learning"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"Alario-Hoyos2018"
+		Amarasinghe2018
+		"G-omez-S-anchez2018"
+		Pellas2014
+	}
+	MOOC -> "Alario-Hoyos2018"
+	MOOC -> Amarasinghe2018
+	MOOC -> "G-omez-S-anchez2018"
+	" engagement" -> "G-omez-S-anchez2018"
+	" engagement" -> Pellas2014
+	" supervised machine learning" -> "G-omez-S-anchez2018"
+	"An approach to build in situ models for the prediction of the decrease of academic engagement indicators in massive open online courses" -> Authors
+	Authors -> "Miguel L. Bote-Lorenzo"
+	Authors -> "Eduardo G´omez-S´anchez"
+}

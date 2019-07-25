@@ -1,0 +1,20 @@
+strict digraph "mind_mapCARLOSA.LARA-NINO2016" {
+	node [color=red shape=doubleoctagon]
+	"Elliptic curve lightweight cryptography: A survey"
+	node [color=blue shape=diamond]
+	"Author
+CARLOS A. LARA-NINO"
+	Keyword
+	"Elliptic curve lightweight cryptography":" A survey" -> "Author
+CARLOS A. LARA-NINO"
+	"Elliptic curve lightweight cryptography":" A survey" -> Keyword
+	node [color=yellow shape=ellipse]
+	Cryptography
+	Keyword -> Cryptography
+	" Elliptic Curve"
+	Keyword -> " Elliptic Curve"
+	" Lightweight"
+	Keyword -> " Lightweight"
+	" Survey"
+	Keyword -> " Survey"
+}

@@ -1,0 +1,18 @@
+strict digraph mind_mapMasahideSasaki2015 {
+	node [color=red shape=doubleoctagon]
+	"Quantum photonic network: Concept, basic tools, and future issues"
+	node [color=blue shape=diamond]
+	"Author
+Masahide Sasaki"
+	Keyword
+	"Quantum photonic network":" Concept, basic tools, and future issues" -> "Author
+Masahide Sasaki"
+	"Quantum photonic network":" Concept, basic tools, and future issues" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Quantum Photonic Network: Concept"
+	Keyword -> "Quantum Photonic Network":" Concept"
+	" Basic Tools"
+	Keyword -> " Basic Tools"
+	" and Future Issues"
+	Keyword -> " and Future Issues"
+}

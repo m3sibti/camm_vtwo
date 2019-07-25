@@ -1,0 +1,18 @@
+strict digraph mind_map61 {
+	node [color=red shape=doubleoctagon]
+	"Interaction in massive courses j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Bry"
+	Keyword
+	"Interaction in massive courses j.ucs special issue" -> "Author
+Bry"
+	"Interaction in massive courses j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Interaction in massive courses j.ucs special issue" -> Authors
+	Authors -> Bry
+	Authors -> " Francois and Ebner"
+	Authors -> " Martin and Pohl"
+	Authors -> " Alexander and Taraghi"
+	Authors -> " Behnam"
+}

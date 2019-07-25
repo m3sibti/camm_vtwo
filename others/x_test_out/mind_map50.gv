@@ -1,0 +1,43 @@
+strict digraph mind_map50 {
+	node [color=red shape=doubleoctagon]
+	"Security analysis of energy internet with robust control approaches and defense design"
+	node [color=blue shape=diamond]
+	"Author
+Ge"
+	Keyword
+	"Security analysis of energy internet with robust control approaches and defense design" -> "Author
+Ge"
+	"Security analysis of energy internet with robust control approaches and defense design" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Energy Internet"
+	Keyword -> "Energy Internet"
+	" Internet of Things"
+	Keyword -> " Internet of Things"
+	" power cyber-physical system"
+	Keyword -> " power cyber-physical system"
+	" cyber security"
+	Keyword -> " cyber security"
+	" system uncertainty"
+	Keyword -> " system uncertainty"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		"LEHLOGONOLOP.I.LEDWABA2018"
+		Rahman2017
+		Sabar2016
+		Cubo2014a
+	}
+	" Internet of Things" -> PENGHAO2018
+	" Internet of Things" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	" Internet of Things" -> Cubo2014a
+	" cyber security" -> Rahman2017
+	" cyber security" -> Sabar2016
+	"Security analysis of energy internet with robust control approaches and defense design" -> Authors
+	Authors -> Ge
+	Authors -> " Hui"
+	Authors -> Zhao
+	Authors -> " Zhenjiang"
+}

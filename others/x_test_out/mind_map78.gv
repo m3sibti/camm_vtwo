@@ -1,0 +1,37 @@
+strict digraph mind_map78 {
+	node [color=red shape=doubleoctagon]
+	"A hybird apporach for group profiling in recommender systems"
+	node [color=blue shape=diamond]
+	"Author
+Ingird Christense"
+	Keyword
+	"A hybird apporach for group profiling in recommender systems" -> "Author
+Ingird Christense"
+	"A hybird apporach for group profiling in recommender systems" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Group Profiling"
+	Keyword -> "Group Profiling"
+	" Group Recommender Systems"
+	Keyword -> " Group Recommender Systems"
+	" Aggregate Rating"
+	Keyword -> " Aggregate Rating"
+	" Hybird recommender System"
+	Keyword -> " Hybird recommender System"
+	" Group Hetrogenity"
+	Keyword -> " Group Hetrogenity"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		IngirdChristense2014
+	}
+	"Group Profiling" -> IngirdChristense2014
+	" Group Recommender Systems" -> IngirdChristense2014
+	" Aggregate Rating" -> IngirdChristense2014
+	" Hybird recommender System" -> IngirdChristense2014
+	" Group Hetrogenity" -> IngirdChristense2014
+	"A hybird apporach for group profiling in recommender systems" -> Authors
+	Authors -> "Ingrid Christensen"
+	Authors -> "Silvia Schiaffino"
+}

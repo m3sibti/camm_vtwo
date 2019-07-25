@@ -1,0 +1,32 @@
+strict digraph mind_map72 {
+	node [color=red shape=doubleoctagon]
+	"Service composition management: A risk-driven approach"
+	node [color=blue shape=diamond]
+	"Author
+Ma"
+	Keyword
+	"Service composition management":" A risk-driven approach" -> "Author
+Ma"
+	"Service composition management":" A risk-driven approach" -> Keyword
+	node [color=yellow shape=ellipse]
+	"service management"
+	Keyword -> "service management"
+	" risk management"
+	Keyword -> " risk management"
+	" service composition"
+	Keyword -> " service composition"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Ma2014
+	}
+	"service management" -> Ma2014
+	" risk management" -> Ma2014
+	" service composition" -> Ma2014
+	"Service composition management":" A risk-driven approach" -> Authors
+	Authors -> "Shang-Pin Ma"
+	Authors -> "Ching-Lung Yeh"
+	Authors -> "Ping-Chang Chen"
+}

@@ -1,0 +1,41 @@
+strict digraph mind_map113 {
+	node [color=red shape=doubleoctagon]
+	"User support for managed immersive education: An evaluation of in-world training for opensim"
+	node [color=blue shape=diamond]
+	"Author
+Indika Perera"
+	Keyword
+	"User support for managed immersive education":" An evaluation of in-world training for opensim" -> "Author
+Indika Perera"
+	"User support for managed immersive education":" An evaluation of in-world training for opensim" -> Keyword
+	node [color=yellow shape=ellipse]
+	OpenSim
+	Keyword -> OpenSim
+	" User Training"
+	Keyword -> " User Training"
+	" Virtual Worlds"
+	Keyword -> " Virtual Worlds"
+	" Immersive Education"
+	Keyword -> " Immersive Education"
+	" In-world Training"
+	Keyword -> " In-world Training"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Perera2014
+		CarmenFernandezPanadero2014
+	}
+	OpenSim -> Perera2014
+	" User Training" -> Perera2014
+	" Virtual Worlds" -> Perera2014
+	" Virtual Worlds" -> CarmenFernandezPanadero2014
+	" Immersive Education" -> Perera2014
+	" In-world Training" -> Perera2014
+	"User support for managed immersive education":" An evaluation of in-world training for opensim" -> Authors
+	Authors -> "Indika Perera"
+	Authors -> " Dulani Meedeniya"
+	Authors -> "Colin Allison"
+	Authors -> " Alan Miller"
+}

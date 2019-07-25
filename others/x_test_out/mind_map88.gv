@@ -1,0 +1,36 @@
+strict digraph mind_map88 {
+	node [color=red shape=doubleoctagon]
+	"Controlled experiments comparing black-box testing strategies for software product lines"
+	node [color=blue shape=diamond]
+	"Author
+Accioly"
+	Keyword
+	"Controlled experiments comparing black-box testing strategies for software product lines" -> "Author
+Accioly"
+	"Controlled experiments comparing black-box testing strategies for software product lines" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Black-box Testing"
+	Keyword -> "Black-box Testing"
+	" Software Product Lines"
+	Keyword -> " Software Product Lines"
+	" Empirical Software Engineering"
+	Keyword -> " Empirical Software Engineering"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Accioly2014
+		Alferez2014
+		Andrade2014
+	}
+	"Black-box Testing" -> Accioly2014
+	" Software Product Lines" -> Accioly2014
+	" Software Product Lines" -> Alferez2014
+	" Software Product Lines" -> Andrade2014
+	" Empirical Software Engineering" -> Accioly2014
+	"Controlled experiments comparing black-box testing strategies for software product lines" -> Authors
+	Authors -> "Paola Accioly"
+	Authors -> "Paulo Borba"
+	Authors -> "Rodrigo Bonif´acio"
+}

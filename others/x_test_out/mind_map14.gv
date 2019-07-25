@@ -1,0 +1,33 @@
+strict digraph mind_map14 {
+	node [color=red shape=doubleoctagon]
+	"Practical cryptanalysis of a public key cryptosystem based on the morphism of polynomials problem"
+	node [color=blue shape=diamond]
+	"Author
+Jaihui Chen"
+	Keyword
+	"Practical cryptanalysis of a public key cryptosystem based on the morphism of polynomials problem" -> "Author
+Jaihui Chen"
+	"Practical cryptanalysis of a public key cryptosystem based on the morphism of polynomials problem" -> Keyword
+	node [color=yellow shape=ellipse]
+	cryptanalysis
+	Keyword -> cryptanalysis
+	" post-quantum cryptography"
+	Keyword -> " post-quantum cryptography"
+	" multivariate public key cryptosystems"
+	Keyword -> " multivariate public key cryptosystems"
+	" morphism of polynomials problem"
+	Keyword -> " morphism of polynomials problem"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JinhuiLiu2016
+	}
+	cryptanalysis -> JinhuiLiu2016
+	" post-quantum cryptography" -> JinhuiLiu2016
+	"Practical cryptanalysis of a public key cryptosystem based on the morphism of polynomials problem" -> Authors
+	Authors -> "aihui Chen"
+	Authors -> "Chik How Tan"
+	Authors -> "Xiaoyu Li"
+}

@@ -1,0 +1,16 @@
+strict digraph mind_map86 {
+	node [color=red shape=doubleoctagon]
+	"Software components, architectures and reuse: Software product line engineering and source code enhancements j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Fantinato"
+	Keyword
+	"Software components, architectures and reuse":" Software product line engineering and source code enhancements j.ucs special issue" -> "Author
+Fantinato"
+	"Software components, architectures and reuse":" Software product line engineering and source code enhancements j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Software components, architectures and reuse":" Software product line engineering and source code enhancements j.ucs special issue" -> Authors
+	Authors -> "Marcelo Fantinato"
+	Authors -> "Uirá Kulesza"
+	Authors -> "Flavio Oquendo"
+}

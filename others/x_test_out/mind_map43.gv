@@ -1,0 +1,36 @@
+strict digraph mind_map43 {
+	node [color=red shape=doubleoctagon]
+	"A survey of data mining and machine learning methods for cyber security intrusion detection"
+	node [color=blue shape=diamond]
+	"Author
+Anna L. Buczak"
+	Keyword
+	"A survey of data mining and machine learning methods for cyber security intrusion detection" -> "Author
+Anna L. Buczak"
+	"A survey of data mining and machine learning methods for cyber security intrusion detection" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Cyber analytics"
+	Keyword -> "Cyber analytics"
+	" data mining"
+	Keyword -> " data mining"
+	" machine learning."
+	Keyword -> " machine learning."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		FERNANDOORTEGA2018
+		YANGXIN2018
+		Xu2014
+		Rijo2014
+	}
+	" data mining" -> FERNANDOORTEGA2018
+	" data mining" -> Xu2014
+	" data mining" -> Rijo2014
+	" machine learning." -> YANGXIN2018
+	"A survey of data mining and machine learning methods for cyber security intrusion detection" -> Authors
+	Authors -> Buczak
+	Authors -> " Anna L and Guven"
+	Authors -> " Erhan"
+}

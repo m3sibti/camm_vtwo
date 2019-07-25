@@ -1,0 +1,32 @@
+strict digraph mind_map109 {
+	node [color=red shape=doubleoctagon]
+	"Semantic based support for planning information delivery in human-agent collaborative teams"
+	node [color=blue shape=diamond]
+	"Author
+Natasha Lino"
+	Keyword
+	"Semantic based support for planning information delivery in human-agent collaborative teams" -> "Author
+Natasha Lino"
+	"Semantic based support for planning information delivery in human-agent collaborative teams" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Intelligent Planning"
+	Keyword -> "Intelligent Planning"
+	" Ontology Design"
+	Keyword -> " Ontology Design"
+	" Multiagent Systems"
+	Keyword -> " Multiagent Systems"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Lino2014
+	}
+	"Intelligent Planning" -> Lino2014
+	" Ontology Design" -> Lino2014
+	" Multiagent Systems" -> Lino2014
+	"Semantic based support for planning information delivery in human-agent collaborative teams" -> Authors
+	Authors -> "Natasha Lino"
+	Authors -> "Clauirton Siebra"
+	Authors -> "Austin Tate"
+}

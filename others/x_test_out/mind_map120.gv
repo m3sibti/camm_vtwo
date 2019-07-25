@@ -1,0 +1,41 @@
+strict digraph mind_map120 {
+	node [color=red shape=doubleoctagon]
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	node [color=blue shape=diamond]
+	"Author
+Yang"
+	Keyword
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks" -> "Author
+Yang"
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks" -> Keyword
+	node [color=yellow shape=ellipse]
+	"multi-radio multi-channel wireless mesh network"
+	Keyword -> "multi-radio multi-channel wireless mesh network"
+	" overlapping channel assignment"
+	Keyword -> " overlapping channel assignment"
+	" capacity optimization"
+	Keyword -> " capacity optimization"
+	" graph coloring"
+	Keyword -> " graph coloring"
+	" Max-Cut"
+	Keyword -> " Max-Cut"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Yang2014
+	}
+	"multi-radio multi-channel wireless mesh network" -> Yang2014
+	" overlapping channel assignment" -> Yang2014
+	" capacity optimization" -> Yang2014
+	" graph coloring" -> Yang2014
+	" Max-Cut" -> Yang2014
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks" -> Authors
+	Authors -> Yang
+	Authors -> " Ming and Liu"
+	Authors -> " Bo and Wang"
+	Authors -> " Wei and Luo"
+	Authors -> " Junzhou and Shen"
+	Authors -> " Xiaojun"
+}

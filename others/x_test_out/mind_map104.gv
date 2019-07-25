@@ -1,0 +1,42 @@
+strict digraph mind_map104 {
+	node [color=red shape=doubleoctagon]
+	"Keyboard-card menus: A new presentation of non-standard shortcuts"
+	node [color=blue shape=diamond]
+	"Author
+Berman"
+	Keyword
+	"Keyboard-card menus":" A new presentation of non-standard shortcuts" -> "Author
+Berman"
+	"Keyboard-card menus":" A new presentation of non-standard shortcuts" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Keyboard shortcuts"
+	Keyword -> "Keyboard shortcuts"
+	" accuracy"
+	Keyword -> " accuracy"
+	" efficiency"
+	Keyword -> " efficiency"
+	" visualization"
+	Keyword -> " visualization"
+	" learnability"
+	Keyword -> " learnability"
+	" computer chording"
+	Keyword -> " computer chording"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		ZarkoStanisavljevic2014
+		Berman2014
+	}
+	"Keyboard shortcuts" -> Berman2014
+	" accuracy" -> Berman2014
+	" efficiency" -> Berman2014
+	" visualization" -> ZarkoStanisavljevic2014
+	" visualization" -> Berman2014
+	" learnability" -> Berman2014
+	" computer chording" -> Berman2014
+	"Keyboard-card menus":" A new presentation of non-standard shortcuts" -> Authors
+	Authors -> "Benjamin Berman"
+	Authors -> "Juan Pablo Hourcade"
+}

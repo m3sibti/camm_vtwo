@@ -1,0 +1,89 @@
+strict digraph mind_map51 {
+	node [color=red shape=doubleoctagon]
+	"Security evaluation of the cyber networks under advanced persistent threats"
+	node [color=blue shape=diamond]
+	"Author
+LU-XING YANG"
+	Keyword
+	"Security evaluation of the cyber networks under advanced persistent threats" -> "Author
+LU-XING YANG"
+	"Security evaluation of the cyber networks under advanced persistent threats" -> Keyword
+	node [color=yellow shape=ellipse]
+	Cyberspace
+	Keyword -> Cyberspace
+	" security"
+	Keyword -> " security"
+	" measurement"
+	Keyword -> " measurement"
+	" nonlinear dynamical systems"
+	Keyword -> " nonlinear dynamical systems"
+	" stability"
+	Keyword -> " stability"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		TANPINGZHOU2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		BORJABORDEL2018
+		"S.M.RIAZULISLAM2015"
+		SHANLIU2013
+		YUDHISTIRANUGRAHA2015
+		MARTINSPAN2018
+		ZHIHONGTIAN2018
+		IVOFRIEDBERG2017
+		RAMIREZ2016
+		Ge2018
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+	}
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PINGYUANZHANG2018
+	" security" -> KHASAWNEH2017
+	" security" -> HADEALABDULAZIZALHAMID2017
+	" security" -> Zhou2016
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> FagenLi2016
+	" security" -> TANPINGZHOU2018
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> BORJABORDEL2018
+	" security" -> "S.M.RIAZULISLAM2015"
+	" security" -> SHANLIU2013
+	" security" -> YUDHISTIRANUGRAHA2015
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> ZHIHONGTIAN2018
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> RAMIREZ2016
+	" security" -> RAMIREZ2016
+	" security" -> Ge2018
+	" security" -> ALTAWY2016
+	" security" -> STEPHENKHOU2017
+	" security" -> STEPHENKHOU2017
+	" security" -> Rahman2017
+	" security" -> Rahman2017
+	" security" -> Sabar2016
+	"Security evaluation of the cyber networks under advanced persistent threats" -> Authors
+	Authors -> Yang
+	Authors -> " Lu-Xing and Li"
+	Authors -> " Pengdeng and Yang"
+	Authors -> " Xiaofan and Tang"
+	Authors -> " Yuan Yan"
+}

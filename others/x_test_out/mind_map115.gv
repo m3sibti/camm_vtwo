@@ -1,0 +1,99 @@
+strict digraph mind_map115 {
+	node [color=red shape=doubleoctagon]
+	"PhyMEL-ws: Physically experiencing the virtual world. Insights into mixed reality and flow state on board a wheelchair simulator"
+	node [color=blue shape=diamond]
+	"Author
+Carmen Fernández Panadero"
+	Keyword
+	"PhyMEL-ws":" Physically experiencing the virtual world. Insights into mixed reality and flow state on board a wheelchair simulator" -> "Author
+Carmen Fernández Panadero"
+	"PhyMEL-ws":" Physically experiencing the virtual world. Insights into mixed reality and flow state on board a wheelchair simulator" -> Keyword
+	node [color=yellow shape=ellipse]
+	Accessibility
+	Keyword -> Accessibility
+	" Simulation"
+	Keyword -> " Simulation"
+	" Wheelchair"
+	Keyword -> " Wheelchair"
+	" Virtual Worlds"
+	Keyword -> " Virtual Worlds"
+	" disability"
+	Keyword -> " disability"
+	" social awareness"
+	Keyword -> " social awareness"
+	" learning"
+	Keyword -> " learning"
+	" 3DOF"
+	Keyword -> " 3DOF"
+	" Unity3D"
+	Keyword -> " Unity3D"
+	" flow state"
+	Keyword -> " flow state"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		LINYUAN2018
+		FERNANDOORTEGA2018
+		JAMESGERARDWOLFF2014
+		MIRZAGOLAMKIBRIA2018
+		"DU-MIM2015"
+		YANGXIN2018
+		Hettiarachchi2014
+		"Fei-YueWang2017"
+		ADADI2018
+		LINCHEN2018
+		"AnnaL.Buczak2015"
+		"IsraelGutierrez-Rojas2014"
+		"G-omez-S-anchez2018"
+		Rijo2014
+		Calvo2014
+		Fu2014
+		Perera2014
+		CarmenFernandezPanadero2014
+		"Munoz-Cristobal2014"
+	}
+	Accessibility -> Calvo2014
+	Accessibility -> CarmenFernandezPanadero2014
+	" Simulation" -> Fu2014
+	" Simulation" -> CarmenFernandezPanadero2014
+	" Wheelchair" -> CarmenFernandezPanadero2014
+	" Virtual Worlds" -> Perera2014
+	" Virtual Worlds" -> CarmenFernandezPanadero2014
+	" disability" -> CarmenFernandezPanadero2014
+	" social awareness" -> CarmenFernandezPanadero2014
+	" learning" -> JAMESGERARDWOLFF2015
+	" learning" -> JAMESGERARDWOLFF2015
+	" learning" -> PETROVIC2018
+	" learning" -> LINYUAN2018
+	" learning" -> FERNANDOORTEGA2018
+	" learning" -> JAMESGERARDWOLFF2014
+	" learning" -> MIRZAGOLAMKIBRIA2018
+	" learning" -> "DU-MIM2015"
+	" learning" -> YANGXIN2018
+	" learning" -> YANGXIN2018
+	" learning" -> Hettiarachchi2014
+	" learning" -> "Fei-YueWang2017"
+	" learning" -> "Fei-YueWang2017"
+	" learning" -> ADADI2018
+	" learning" -> LINCHEN2018
+	" learning" -> "AnnaL.Buczak2015"
+	" learning" -> "IsraelGutierrez-Rojas2014"
+	" learning" -> "IsraelGutierrez-Rojas2014"
+	" learning" -> "G-omez-S-anchez2018"
+	" learning" -> Rijo2014
+	" learning" -> CarmenFernandezPanadero2014
+	" learning" -> "Munoz-Cristobal2014"
+	" learning" -> "Munoz-Cristobal2014"
+	" 3DOF" -> CarmenFernandezPanadero2014
+	" Unity3D" -> CarmenFernandezPanadero2014
+	" flow state" -> CarmenFernandezPanadero2014
+	"PhyMEL-ws":" Physically experiencing the virtual world. Insights into mixed reality and flow state on board a wheelchair simulator" -> Authors
+	Authors -> "Carmen Fernández Panadero"
+	Authors -> " Valentín de la Cruz Barquero"
+	Authors -> "Carlos Delgado Kloos"
+	Authors -> "David Morán Núñez"
+}

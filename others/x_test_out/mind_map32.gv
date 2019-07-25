@@ -1,0 +1,25 @@
+strict digraph mind_map32 {
+	node [color=red shape=doubleoctagon]
+	"Contrasting human and computational intelligence based autonomous behaviors in a blue–red simulation environment"
+	node [color=blue shape=diamond]
+	"Author
+Shir Li Wang"
+	Keyword
+	"Contrasting human and computational intelligence based autonomous behaviors in a blue–red simulation environment" -> "Author
+Shir Li Wang"
+	"Contrasting human and computational intelligence based autonomous behaviors in a blue–red simulation environment" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Computational red teaming"
+	Keyword -> "Computational red teaming"
+	" human-machine behavioral analysis transparent artificial intelligence transparent autonomy"
+	Keyword -> " human-machine behavioral analysis transparent artificial intelligence transparent autonomy"
+	" neuro-evolution."
+	Keyword -> " neuro-evolution."
+	"Contrasting human and computational intelligence based autonomous behaviors in a blue–red simulation environment" -> Authors
+	Authors -> Wang
+	Authors -> " Shir Li and Shafi"
+	Authors -> " Kamran and Ng"
+	Authors -> " Theam Foo and Lokan"
+	Authors -> " Chris and Abbass"
+	Authors -> " Hussein A"
+}

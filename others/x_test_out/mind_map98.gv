@@ -1,0 +1,777 @@
+strict digraph mind_map98 {
+	node [color=red shape=doubleoctagon]
+	"The role of absorptive capacity in the usage of a complex information system: The case of the enterprise information system"
+	node [color=blue shape=diamond]
+	"Author
+Mayeh"
+	Keyword
+	"The role of absorptive capacity in the usage of a complex information system":" The case of the enterprise information system" -> "Author
+Mayeh"
+	"The role of absorptive capacity in the usage of a complex information system":" The case of the enterprise information system" -> Keyword
+	node [color=yellow shape=ellipse]
+	ERP
+	Keyword -> ERP
+	" Iran"
+	Keyword -> " Iran"
+	" SEM"
+	Keyword -> " SEM"
+	" absorptive capacity for applying"
+	Keyword -> " absorptive capacity for applying"
+	""
+	Keyword -> ""
+	" absorptive capacity for assimilating"
+	Keyword -> " absorptive capacity for assimilating"
+	" absorptive capacity for understanding"
+	Keyword -> " absorptive capacity for understanding"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZHINIANG2017
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		SHENGDING2018
+		SHUMINGQIU2017
+		"CARLOSA.LARA-NINO2016"
+		TANPINGZHOU2018
+		HouzhenWang2016
+		"LEHLOGONOLOP.I.LEDWABA2018"
+		JaihuiChen2018
+		MasahideSasaki2015
+		ZUOWEN2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		JinhuiLiu2016
+		THANHNAMPHAM2015
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		JIAFUWAN2018
+		JIAYINGLIU2018
+		LINYUAN2018
+		ZONGBAOYANG2018
+		FERNANDOORTEGA2018
+		"G.PankajJain2014"
+		XIAOFEIWANG2015
+		JAMESGERARDWOLFF2014
+		MIRZAGOLAMKIBRIA2018
+		"DU-MIM2015"
+		ShirLiWang2017
+		YANGXIN2018
+		Hettiarachchi2014
+		"Fei-YueWang2017"
+		ADADI2018
+		"MAN-JEKIM2018"
+		"MaxOrtiz-Catalan2014"
+		BORJABORDEL2018
+		"S.M.RIAZULISLAM2015"
+		LINCHEN2018
+		SHANLIU2013
+		"AnnaL.Buczak2015"
+		YUDHISTIRANUGRAHA2015
+		MARTINSPAN2018
+		ZHIHONGTIAN2018
+		IVOFRIEDBERG2017
+		RAMIREZ2016
+		MISCHAMOeSTL2018
+		Ge2018
+		"LU-XINGYANG2017"
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+		Xu2014
+		Fabry2014
+		"IsraelGutierrez-Rojas2014"
+		Blanco2014
+		Chenaina2014
+		Bry2014
+		"Perez-Gonzalez2014"
+		Ferrarotti2014
+		Grigalis2014
+		"Alario-Hoyos2018"
+		Wautelet2018
+		MoreiraTeixeira2018
+		Amarasinghe2018
+		"G-omez-S-anchez2018"
+		Frixione2014
+		"Kl-imek2014"
+		Ma2014
+		Hasan2014
+		Parapar2014
+		Rady2014
+		Wynn2014
+		Matsumoto2014
+		IngirdChristense2014
+		Zouari2014
+		Vleju2014
+		Brodic2014
+		Slootmaker2014
+		Ajmal2014
+		Maly2014
+		Oliveira2014
+		Fantinato2014
+		Ferreira2014
+		Accioly2014
+		Alferez2014
+		Mello2014
+		Medeiros2014
+		Lemos2014
+		SilvaJunior2014
+		Varajao2014
+		Huysegoms2014
+		Putnik2014
+		Herranz2014
+		Mayeh2014
+		Andrade2014
+		Cubo2014
+		Rijo2014
+		Cubo2014a
+		Calvo2014
+		Berman2014
+		Arellano2014
+		Hog2014
+		Moya2014
+		Vega2014
+		Lino2014
+		Zheng2014
+		"Lopez-Gil2014"
+		Fu2014
+		Perera2014
+		Pellas2014
+		CarmenFernandezPanadero2014
+		Barbosa2014
+		"Munoz-Cristobal2014"
+		Shen2014
+		Baloian2014
+		Yang2014
+	}
+	ERP -> Mayeh2014
+	" Iran" -> Mayeh2014
+	" SEM" -> Mayeh2014
+	" absorptive capacity for applying" -> Mayeh2014
+	"" -> PENGHAO2018
+	"" -> PENGHAO2018
+	"" -> PENGHAO2018
+	"" -> PENGHAO2018
+	"" -> PENGHAO2018
+	"" -> PENGHAO2018
+	"" -> PINGYUANZHANG2018
+	"" -> PINGYUANZHANG2018
+	"" -> PINGYUANZHANG2018
+	"" -> PINGYUANZHANG2018
+	"" -> PINGYUANZHANG2018
+	"" -> KHASAWNEH2017
+	"" -> KHASAWNEH2017
+	"" -> KHASAWNEH2017
+	"" -> KHASAWNEH2017
+	"" -> KHASAWNEH2017
+	"" -> HADEALABDULAZIZALHAMID2017
+	"" -> HADEALABDULAZIZALHAMID2017
+	"" -> HADEALABDULAZIZALHAMID2017
+	"" -> HADEALABDULAZIZALHAMID2017
+	"" -> HADEALABDULAZIZALHAMID2017
+	"" -> HADEALABDULAZIZALHAMID2017
+	"" -> Zhou2016
+	"" -> Zhou2016
+	"" -> Zhou2016
+	"" -> Zhou2016
+	"" -> Zhou2016
+	"" -> Zhou2016
+	"" -> ZHINIANG2017
+	"" -> ZHINIANG2017
+	"" -> ZHINIANG2017
+	"" -> ZHINIANG2017
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> ZarkoStanisavljevic2014
+	"" -> FagenLi2016
+	"" -> FagenLi2016
+	"" -> FagenLi2016
+	"" -> FagenLi2016
+	"" -> FagenLi2016
+	"" -> SHENGDING2018
+	"" -> SHENGDING2018
+	"" -> SHENGDING2018
+	"" -> SHENGDING2018
+	"" -> SHENGDING2018
+	"" -> SHUMINGQIU2017
+	"" -> SHUMINGQIU2017
+	"" -> SHUMINGQIU2017
+	"" -> SHUMINGQIU2017
+	"" -> SHUMINGQIU2017
+	"" -> SHUMINGQIU2017
+	"" -> "CARLOSA.LARA-NINO2016"
+	"" -> "CARLOSA.LARA-NINO2016"
+	"" -> "CARLOSA.LARA-NINO2016"
+	"" -> "CARLOSA.LARA-NINO2016"
+	"" -> TANPINGZHOU2018
+	"" -> TANPINGZHOU2018
+	"" -> TANPINGZHOU2018
+	"" -> TANPINGZHOU2018
+	"" -> TANPINGZHOU2018
+	"" -> TANPINGZHOU2018
+	"" -> TANPINGZHOU2018
+	"" -> HouzhenWang2016
+	"" -> HouzhenWang2016
+	"" -> HouzhenWang2016
+	"" -> HouzhenWang2016
+	"" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	"" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	"" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	"" -> "LEHLOGONOLOP.I.LEDWABA2018"
+	"" -> JaihuiChen2018
+	"" -> JaihuiChen2018
+	"" -> JaihuiChen2018
+	"" -> JaihuiChen2018
+	"" -> MasahideSasaki2015
+	"" -> MasahideSasaki2015
+	"" -> MasahideSasaki2015
+	"" -> ZUOWEN2018
+	"" -> ZUOWEN2018
+	"" -> ZUOWEN2018
+	"" -> ZUOWEN2018
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"" -> JinhuiLiu2016
+	"" -> JinhuiLiu2016
+	"" -> JinhuiLiu2016
+	"" -> JinhuiLiu2016
+	"" -> JinhuiLiu2016
+	"" -> THANHNAMPHAM2015
+	"" -> THANHNAMPHAM2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> JAMESGERARDWOLFF2015
+	"" -> PETROVIC2018
+	"" -> PETROVIC2018
+	"" -> PETROVIC2018
+	"" -> PETROVIC2018
+	"" -> PETROVIC2018
+	"" -> PETROVIC2018
+	"" -> PETROVIC2018
+	"" -> JIAFUWAN2018
+	"" -> JIAFUWAN2018
+	"" -> JIAFUWAN2018
+	"" -> JIAFUWAN2018
+	"" -> JIAYINGLIU2018
+	"" -> JIAYINGLIU2018
+	"" -> JIAYINGLIU2018
+	"" -> JIAYINGLIU2018
+	"" -> JIAYINGLIU2018
+	"" -> LINYUAN2018
+	"" -> LINYUAN2018
+	"" -> LINYUAN2018
+	"" -> LINYUAN2018
+	"" -> LINYUAN2018
+	"" -> ZONGBAOYANG2018
+	"" -> ZONGBAOYANG2018
+	"" -> ZONGBAOYANG2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> FERNANDOORTEGA2018
+	"" -> "G.PankajJain2014"
+	"" -> "G.PankajJain2014"
+	"" -> "G.PankajJain2014"
+	"" -> "G.PankajJain2014"
+	"" -> XIAOFEIWANG2015
+	"" -> XIAOFEIWANG2015
+	"" -> XIAOFEIWANG2015
+	"" -> XIAOFEIWANG2015
+	"" -> XIAOFEIWANG2015
+	"" -> JAMESGERARDWOLFF2014
+	"" -> JAMESGERARDWOLFF2014
+	"" -> JAMESGERARDWOLFF2014
+	"" -> JAMESGERARDWOLFF2014
+	"" -> JAMESGERARDWOLFF2014
+	"" -> JAMESGERARDWOLFF2014
+	"" -> MIRZAGOLAMKIBRIA2018
+	"" -> MIRZAGOLAMKIBRIA2018
+	"" -> MIRZAGOLAMKIBRIA2018
+	"" -> MIRZAGOLAMKIBRIA2018
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> "DU-MIM2015"
+	"" -> ShirLiWang2017
+	"" -> ShirLiWang2017
+	"" -> ShirLiWang2017
+	"" -> YANGXIN2018
+	"" -> YANGXIN2018
+	"" -> YANGXIN2018
+	"" -> YANGXIN2018
+	"" -> Hettiarachchi2014
+	"" -> Hettiarachchi2014
+	"" -> Hettiarachchi2014
+	"" -> Hettiarachchi2014
+	"" -> Hettiarachchi2014
+	"" -> Hettiarachchi2014
+	"" -> Hettiarachchi2014
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> "Fei-YueWang2017"
+	"" -> ADADI2018
+	"" -> ADADI2018
+	"" -> ADADI2018
+	"" -> "MAN-JEKIM2018"
+	"" -> "MAN-JEKIM2018"
+	"" -> "MAN-JEKIM2018"
+	"" -> "MAN-JEKIM2018"
+	"" -> "MAN-JEKIM2018"
+	"" -> "MAN-JEKIM2018"
+	"" -> "MAN-JEKIM2018"
+	"" -> "MaxOrtiz-Catalan2014"
+	"" -> "MaxOrtiz-Catalan2014"
+	"" -> "MaxOrtiz-Catalan2014"
+	"" -> "MaxOrtiz-Catalan2014"
+	"" -> "MaxOrtiz-Catalan2014"
+	"" -> BORJABORDEL2018
+	"" -> BORJABORDEL2018
+	"" -> BORJABORDEL2018
+	"" -> BORJABORDEL2018
+	"" -> BORJABORDEL2018
+	"" -> BORJABORDEL2018
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> "S.M.RIAZULISLAM2015"
+	"" -> LINCHEN2018
+	"" -> LINCHEN2018
+	"" -> LINCHEN2018
+	"" -> LINCHEN2018
+	"" -> SHANLIU2013
+	"" -> SHANLIU2013
+	"" -> SHANLIU2013
+	"" -> SHANLIU2013
+	"" -> "AnnaL.Buczak2015"
+	"" -> "AnnaL.Buczak2015"
+	"" -> "AnnaL.Buczak2015"
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> YUDHISTIRANUGRAHA2015
+	"" -> MARTINSPAN2018
+	"" -> MARTINSPAN2018
+	"" -> MARTINSPAN2018
+	"" -> MARTINSPAN2018
+	"" -> MARTINSPAN2018
+	"" -> MARTINSPAN2018
+	"" -> ZHIHONGTIAN2018
+	"" -> ZHIHONGTIAN2018
+	"" -> ZHIHONGTIAN2018
+	"" -> ZHIHONGTIAN2018
+	"" -> ZHIHONGTIAN2018
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> IVOFRIEDBERG2017
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> RAMIREZ2016
+	"" -> MISCHAMOeSTL2018
+	"" -> MISCHAMOeSTL2018
+	"" -> MISCHAMOeSTL2018
+	"" -> MISCHAMOeSTL2018
+	"" -> Ge2018
+	"" -> Ge2018
+	"" -> Ge2018
+	"" -> Ge2018
+	"" -> Ge2018
+	"" -> "LU-XINGYANG2017"
+	"" -> "LU-XINGYANG2017"
+	"" -> "LU-XINGYANG2017"
+	"" -> "LU-XINGYANG2017"
+	"" -> "LU-XINGYANG2017"
+	"" -> ALTAWY2016
+	"" -> ALTAWY2016
+	"" -> ALTAWY2016
+	"" -> ALTAWY2016
+	"" -> STEPHENKHOU2017
+	"" -> STEPHENKHOU2017
+	"" -> STEPHENKHOU2017
+	"" -> STEPHENKHOU2017
+	"" -> Rahman2017
+	"" -> Rahman2017
+	"" -> Rahman2017
+	"" -> Rahman2017
+	"" -> Rahman2017
+	"" -> Rahman2017
+	"" -> Sabar2016
+	"" -> Sabar2016
+	"" -> Sabar2016
+	"" -> Sabar2016
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Xu2014
+	"" -> Fabry2014
+	"" -> Fabry2014
+	"" -> Fabry2014
+	"" -> Fabry2014
+	"" -> Fabry2014
+	"" -> "IsraelGutierrez-Rojas2014"
+	"" -> "IsraelGutierrez-Rojas2014"
+	"" -> "IsraelGutierrez-Rojas2014"
+	"" -> "IsraelGutierrez-Rojas2014"
+	"" -> "IsraelGutierrez-Rojas2014"
+	"" -> "IsraelGutierrez-Rojas2014"
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Blanco2014
+	"" -> Chenaina2014
+	"" -> Chenaina2014
+	"" -> Chenaina2014
+	"" -> Chenaina2014
+	"" -> Chenaina2014
+	"" -> "Perez-Gonzalez2014"
+	"" -> "Perez-Gonzalez2014"
+	"" -> "Perez-Gonzalez2014"
+	"" -> "Perez-Gonzalez2014"
+	"" -> "Perez-Gonzalez2014"
+	"" -> "Perez-Gonzalez2014"
+	"" -> Grigalis2014
+	"" -> Grigalis2014
+	"" -> Grigalis2014
+	"" -> Grigalis2014
+	"" -> "Alario-Hoyos2018"
+	"" -> "Alario-Hoyos2018"
+	"" -> "Alario-Hoyos2018"
+	"" -> "Alario-Hoyos2018"
+	"" -> "Alario-Hoyos2018"
+	"" -> "Alario-Hoyos2018"
+	"" -> Wautelet2018
+	"" -> Wautelet2018
+	"" -> Wautelet2018
+	"" -> Wautelet2018
+	"" -> Wautelet2018
+	"" -> Wautelet2018
+	"" -> Wautelet2018
+	"" -> Amarasinghe2018
+	"" -> Amarasinghe2018
+	"" -> Amarasinghe2018
+	"" -> Amarasinghe2018
+	"" -> "G-omez-S-anchez2018"
+	"" -> "G-omez-S-anchez2018"
+	"" -> "G-omez-S-anchez2018"
+	"" -> Frixione2014
+	"" -> Frixione2014
+	"" -> Frixione2014
+	"" -> Frixione2014
+	"" -> Frixione2014
+	"" -> Frixione2014
+	"" -> "Kl-imek2014"
+	"" -> "Kl-imek2014"
+	"" -> "Kl-imek2014"
+	"" -> "Kl-imek2014"
+	"" -> Ma2014
+	"" -> Ma2014
+	"" -> Ma2014
+	"" -> Hasan2014
+	"" -> Hasan2014
+	"" -> Hasan2014
+	"" -> Hasan2014
+	"" -> Hasan2014
+	"" -> Parapar2014
+	"" -> Parapar2014
+	"" -> Parapar2014
+	"" -> Parapar2014
+	"" -> Parapar2014
+	"" -> Parapar2014
+	"" -> Rady2014
+	"" -> Rady2014
+	"" -> Rady2014
+	"" -> Rady2014
+	"" -> Rady2014
+	"" -> Rady2014
+	"" -> Wynn2014
+	"" -> Wynn2014
+	"" -> Wynn2014
+	"" -> Wynn2014
+	"" -> Wynn2014
+	"" -> Matsumoto2014
+	"" -> Matsumoto2014
+	"" -> Matsumoto2014
+	"" -> Matsumoto2014
+	"" -> Matsumoto2014
+	"" -> Matsumoto2014
+	"" -> Matsumoto2014
+	"" -> IngirdChristense2014
+	"" -> IngirdChristense2014
+	"" -> IngirdChristense2014
+	"" -> IngirdChristense2014
+	"" -> IngirdChristense2014
+	"" -> Zouari2014
+	"" -> Zouari2014
+	"" -> Zouari2014
+	"" -> Zouari2014
+	"" -> Vleju2014
+	"" -> Vleju2014
+	"" -> Vleju2014
+	"" -> Vleju2014
+	"" -> Vleju2014
+	"" -> Vleju2014
+	"" -> Brodic2014
+	"" -> Brodic2014
+	"" -> Brodic2014
+	"" -> Brodic2014
+	"" -> Brodic2014
+	"" -> Slootmaker2014
+	"" -> Slootmaker2014
+	"" -> Slootmaker2014
+	"" -> Slootmaker2014
+	"" -> Ajmal2014
+	"" -> Ajmal2014
+	"" -> Ajmal2014
+	"" -> Ajmal2014
+	"" -> Maly2014
+	"" -> Maly2014
+	"" -> Maly2014
+	"" -> Maly2014
+	"" -> Maly2014
+	"" -> Oliveira2014
+	"" -> Oliveira2014
+	"" -> Oliveira2014
+	"" -> Ferreira2014
+	"" -> Ferreira2014
+	"" -> Ferreira2014
+	"" -> Ferreira2014
+	"" -> Accioly2014
+	"" -> Accioly2014
+	"" -> Accioly2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Alferez2014
+	"" -> Mello2014
+	"" -> Mello2014
+	"" -> Mello2014
+	"" -> Mello2014
+	"" -> Mello2014
+	"" -> Mello2014
+	"" -> Medeiros2014
+	"" -> Medeiros2014
+	"" -> Medeiros2014
+	"" -> Medeiros2014
+	"" -> Lemos2014
+	"" -> Lemos2014
+	"" -> Lemos2014
+	"" -> Lemos2014
+	"" -> SilvaJunior2014
+	"" -> SilvaJunior2014
+	"" -> SilvaJunior2014
+	"" -> Huysegoms2014
+	"" -> Huysegoms2014
+	"" -> Huysegoms2014
+	"" -> Huysegoms2014
+	"" -> Huysegoms2014
+	"" -> Putnik2014
+	"" -> Putnik2014
+	"" -> Putnik2014
+	"" -> Herranz2014
+	"" -> Herranz2014
+	"" -> Herranz2014
+	"" -> Mayeh2014
+	"" -> Mayeh2014
+	"" -> Mayeh2014
+	"" -> Mayeh2014
+	"" -> Mayeh2014
+	"" -> Mayeh2014
+	"" -> Mayeh2014
+	"" -> Andrade2014
+	"" -> Andrade2014
+	"" -> Andrade2014
+	"" -> Andrade2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Rijo2014
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Cubo2014a
+	"" -> Calvo2014
+	"" -> Calvo2014
+	"" -> Calvo2014
+	"" -> Calvo2014
+	"" -> Calvo2014
+	"" -> Calvo2014
+	"" -> Berman2014
+	"" -> Berman2014
+	"" -> Berman2014
+	"" -> Berman2014
+	"" -> Berman2014
+	"" -> Berman2014
+	"" -> Arellano2014
+	"" -> Arellano2014
+	"" -> Arellano2014
+	"" -> Hog2014
+	"" -> Hog2014
+	"" -> Hog2014
+	"" -> Hog2014
+	"" -> Hog2014
+	"" -> Hog2014
+	"" -> Moya2014
+	"" -> Moya2014
+	"" -> Moya2014
+	"" -> Moya2014
+	"" -> Moya2014
+	"" -> Vega2014
+	"" -> Vega2014
+	"" -> Vega2014
+	"" -> Vega2014
+	"" -> Vega2014
+	"" -> Lino2014
+	"" -> Lino2014
+	"" -> Lino2014
+	"" -> Zheng2014
+	"" -> Zheng2014
+	"" -> Zheng2014
+	"" -> Zheng2014
+	"" -> "Lopez-Gil2014"
+	"" -> "Lopez-Gil2014"
+	"" -> "Lopez-Gil2014"
+	"" -> "Lopez-Gil2014"
+	"" -> "Lopez-Gil2014"
+	"" -> Fu2014
+	"" -> Fu2014
+	"" -> Fu2014
+	"" -> Fu2014
+	"" -> Fu2014
+	"" -> Fu2014
+	"" -> Perera2014
+	"" -> Perera2014
+	"" -> Perera2014
+	"" -> Perera2014
+	"" -> Perera2014
+	"" -> Pellas2014
+	"" -> Pellas2014
+	"" -> Pellas2014
+	"" -> Pellas2014
+	"" -> Pellas2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> CarmenFernandezPanadero2014
+	"" -> Barbosa2014
+	"" -> Barbosa2014
+	"" -> Barbosa2014
+	"" -> "Munoz-Cristobal2014"
+	"" -> "Munoz-Cristobal2014"
+	"" -> "Munoz-Cristobal2014"
+	"" -> "Munoz-Cristobal2014"
+	"" -> "Munoz-Cristobal2014"
+	"" -> Baloian2014
+	"" -> Baloian2014
+	"" -> Baloian2014
+	"" -> Baloian2014
+	"" -> Baloian2014
+	"" -> Yang2014
+	"" -> Yang2014
+	"" -> Yang2014
+	"" -> Yang2014
+	"" -> Yang2014
+	" absorptive capacity for assimilating" -> Mayeh2014
+	" absorptive capacity for understanding" -> Mayeh2014
+	"The role of absorptive capacity in the usage of a complex information system":" The case of the enterprise information system" -> Authors
+	Authors -> "Maral Mayeh"
+	Authors -> "Eduardo Herranz"
+	Authors -> "Ricardo Colomo-Palacios"
+	Authors -> "Antonio de Amescua Seco"
+}

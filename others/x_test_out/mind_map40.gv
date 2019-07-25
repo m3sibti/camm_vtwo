@@ -1,0 +1,119 @@
+strict digraph mind_map40 {
+	node [color=red shape=doubleoctagon]
+	"The internet of things for health care:,A comprehensive survey"
+	node [color=blue shape=diamond]
+	"Author
+S. M. RIAZUL ISLAM"
+	Keyword
+	"The internet of things for health care":",A comprehensive survey" -> "Author
+S. M. RIAZUL ISLAM"
+	"The internet of things for health care":",A comprehensive survey" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Internet of things"
+	Keyword -> "Internet of things"
+	" health care"
+	Keyword -> " health care"
+	" services"
+	Keyword -> " services"
+	" applications"
+	Keyword -> " applications"
+	" networks"
+	Keyword -> " networks"
+	" architectures"
+	Keyword -> " architectures"
+	" platforms"
+	Keyword -> " platforms"
+	" security"
+	Keyword -> " security"
+	" technologies"
+	Keyword -> " technologies"
+	" industries"
+	Keyword -> " industries"
+	" policies"
+	Keyword -> " policies"
+	" challenges."
+	Keyword -> " challenges."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		TANPINGZHOU2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		JAMESGERARDWOLFF2015
+		LINYUAN2018
+		XIAOFEIWANG2015
+		"MaxOrtiz-Catalan2014"
+		BORJABORDEL2018
+		LINCHEN2018
+		SHANLIU2013
+		YUDHISTIRANUGRAHA2015
+		MARTINSPAN2018
+		ZHIHONGTIAN2018
+		IVOFRIEDBERG2017
+		RAMIREZ2016
+		Ge2018
+		"LU-XINGYANG2017"
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+	}
+	" applications" -> IVOFRIEDBERG2017
+	" networks" -> FagenLi2016
+	" networks" -> JAMESGERARDWOLFF2015
+	" networks" -> LINYUAN2018
+	" networks" -> XIAOFEIWANG2015
+	" networks" -> XIAOFEIWANG2015
+	" networks" -> "MaxOrtiz-Catalan2014"
+	" networks" -> LINCHEN2018
+	" networks" -> IVOFRIEDBERG2017
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PINGYUANZHANG2018
+	" security" -> KHASAWNEH2017
+	" security" -> HADEALABDULAZIZALHAMID2017
+	" security" -> Zhou2016
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> FagenLi2016
+	" security" -> TANPINGZHOU2018
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> BORJABORDEL2018
+	" security" -> SHANLIU2013
+	" security" -> YUDHISTIRANUGRAHA2015
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> MARTINSPAN2018
+	" security" -> ZHIHONGTIAN2018
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> RAMIREZ2016
+	" security" -> RAMIREZ2016
+	" security" -> Ge2018
+	" security" -> "LU-XINGYANG2017"
+	" security" -> ALTAWY2016
+	" security" -> STEPHENKHOU2017
+	" security" -> STEPHENKHOU2017
+	" security" -> Rahman2017
+	" security" -> Rahman2017
+	" security" -> Sabar2016
+	" technologies" -> IVOFRIEDBERG2017
+	"The internet of things for health care":",A comprehensive survey" -> Authors
+	Authors -> Islam
+	Authors -> " SM Riazul and Kwak"
+	Authors -> " Daehan and Kabir"
+	Authors -> " MD Humaun and Hossain"
+	Authors -> " Mahmud and Kwak"
+	Authors -> " Kyung-Sup"
+}

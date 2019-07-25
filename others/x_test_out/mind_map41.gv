@@ -1,0 +1,38 @@
+strict digraph mind_map41 {
+	node [color=red shape=doubleoctagon]
+	"Which artificial intelligence algorithm better predicts the chinese stock market?"
+	node [color=blue shape=diamond]
+	"Author
+LIN CHEN"
+	Keyword
+	"Which artificial intelligence algorithm better predicts the chinese stock market?" -> "Author
+LIN CHEN"
+	"Which artificial intelligence algorithm better predicts the chinese stock market?" -> Keyword
+	node [color=yellow shape=ellipse]
+	"S Prediction methods"
+	Keyword -> "S Prediction methods"
+	" artificial neural networks"
+	Keyword -> " artificial neural networks"
+	" stock markets"
+	Keyword -> " stock markets"
+	" deep learning."
+	Keyword -> " deep learning."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		LINYUAN2018
+		"MaxOrtiz-Catalan2014"
+	}
+	" artificial neural networks" -> LINYUAN2018
+	" artificial neural networks" -> "MaxOrtiz-Catalan2014"
+	"Which artificial intelligence algorithm better predicts the chinese stock market?" -> Authors
+	Authors -> Chen
+	Authors -> " Lin and Qiao"
+	Authors -> " Zhilin and Wang"
+	Authors -> " Minggang and Wang"
+	Authors -> " Chao and Du"
+	Authors -> " Ruijin and Stanley"
+	Authors -> " Harry Eugene"
+}

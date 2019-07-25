@@ -1,0 +1,50 @@
+strict digraph mind_map90 {
+	node [color=red shape=doubleoctagon]
+	"Verification of software product line artefacts: A checklist to support feature model inspections"
+	node [color=blue shape=diamond]
+	"Author
+Mello"
+	Keyword
+	"Verification of software product line artefacts":" A checklist to support feature model inspections" -> "Author
+Mello"
+	"Verification of software product line artefacts":" A checklist to support feature model inspections" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Feature Model"
+	Keyword -> "Feature Model"
+	" Software Inspection"
+	Keyword -> " Software Inspection"
+	" Domain Engineering"
+	Keyword -> " Domain Engineering"
+	" Software Reuse"
+	Keyword -> " Software Reuse"
+	" Software Product Line"
+	Keyword -> " Software Product Line"
+	" Experimental Software Engineering."
+	Keyword -> " Experimental Software Engineering."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Accioly2014
+		Alferez2014
+		Mello2014
+		Andrade2014
+	}
+	"Feature Model" -> Alferez2014
+	"Feature Model" -> Mello2014
+	" Software Inspection" -> Mello2014
+	" Domain Engineering" -> Mello2014
+	" Software Reuse" -> Mello2014
+	" Software Product Line" -> Accioly2014
+	" Software Product Line" -> Alferez2014
+	" Software Product Line" -> Mello2014
+	" Software Product Line" -> Andrade2014
+	" Experimental Software Engineering." -> Mello2014
+	"Verification of software product line artefacts":" A checklist to support feature model inspections" -> Authors
+	Authors -> "Rafael Maiani de Mello"
+	Authors -> "Eldânae Nogueira Teixeira"
+	Authors -> "Marcelo Schots"
+	Authors -> "Cláudia Maria Lima Werner"
+	Authors -> "Guilherme Horta Travassos"
+}

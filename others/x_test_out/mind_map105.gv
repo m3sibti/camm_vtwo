@@ -1,0 +1,32 @@
+strict digraph mind_map105 {
+	node [color=red shape=doubleoctagon]
+	"Let me listen to poetry, let me see emotions"
+	node [color=blue shape=diamond]
+	"Author
+Arellano"
+	Keyword
+	"Let me listen to poetry, let me see emotions" -> "Author
+Arellano"
+	"Let me listen to poetry, let me see emotions" -> Keyword
+	node [color=yellow shape=ellipse]
+	"User experience"
+	Keyword -> "User experience"
+	" affective computing"
+	Keyword -> " affective computing"
+	" human-computer interaction"
+	Keyword -> " human-computer interaction"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Arellano2014
+	}
+	"User experience" -> Arellano2014
+	" affective computing" -> Arellano2014
+	" human-computer interaction" -> Arellano2014
+	"Let me listen to poetry, let me see emotions" -> Authors
+	Authors -> "Diana Arellano"
+	Authors -> "Cristina Manresa-Yee"
+	Authors -> "Volker Helzle"
+}

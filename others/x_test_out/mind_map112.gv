@@ -1,0 +1,44 @@
+strict digraph mind_map112 {
+	node [color=red shape=doubleoctagon]
+	"A utility-oriented routing scheme for interest-driven community-based opportunistic networks"
+	node [color=blue shape=diamond]
+	"Author
+Xiuwen Fu"
+	Keyword
+	"A utility-oriented routing scheme for interest-driven community-based opportunistic networks" -> "Author
+Xiuwen Fu"
+	"A utility-oriented routing scheme for interest-driven community-based opportunistic networks" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Opportunistic Networks"
+	Keyword -> "Opportunistic Networks"
+	" Mobility Model"
+	Keyword -> " Mobility Model"
+	" Routing Algorithm"
+	Keyword -> " Routing Algorithm"
+	" Community"
+	Keyword -> " Community"
+	" Simulation Analysis"
+	Keyword -> " Simulation Analysis"
+	" Performance Evaluation"
+	Keyword -> " Performance Evaluation"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Fu2014
+	}
+	"Opportunistic Networks" -> Fu2014
+	" Mobility Model" -> Fu2014
+	" Routing Algorithm" -> Fu2014
+	" Community" -> Fu2014
+	" Simulation Analysis" -> Fu2014
+	" Performance Evaluation" -> Fu2014
+	"A utility-oriented routing scheme for interest-driven community-based opportunistic networks" -> Authors
+	Authors -> "Xiuwen Fu"
+	Authors -> "Wenfeng Li"
+	Authors -> "Giancarlo Fortino"
+	Authors -> "Pasquale Pace"
+	Authors -> "Gianluca Aloi"
+	Authors -> "Wilma Russo"
+}

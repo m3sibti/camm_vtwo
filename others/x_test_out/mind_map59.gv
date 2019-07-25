@@ -1,0 +1,57 @@
+strict digraph mind_map59 {
+	node [color=red shape=doubleoctagon]
+	"Showing the benefits of applying a model driven architecture for developing secure olap applications"
+	node [color=blue shape=diamond]
+	"Author
+Blanco"
+	Keyword
+	"Showing the benefits of applying a model driven architecture for developing secure olap applications" -> "Author
+Blanco"
+	"Showing the benefits of applying a model driven architecture for developing secure olap applications" -> Keyword
+	node [color=yellow shape=ellipse]
+	Security
+	Keyword -> Security
+	" Confidentiality"
+	Keyword -> " Confidentiality"
+	" OLAP"
+	Keyword -> " OLAP"
+	" Data Warehouses"
+	Keyword -> " Data Warehouses"
+	" Model Driven"
+	Keyword -> " Model Driven"
+	" MDA"
+	Keyword -> " MDA"
+	" Transformations"
+	Keyword -> " Transformations"
+	" SSAS"
+	Keyword -> " SSAS"
+	" Case Study."
+	Keyword -> " Case Study."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"LEHLOGONOLOP.I.LEDWABA2018"
+		ZHIHONGTIAN2018
+		STEPHENKHOU2017
+		Blanco2014
+	}
+	Security -> "LEHLOGONOLOP.I.LEDWABA2018"
+	Security -> ZHIHONGTIAN2018
+	Security -> STEPHENKHOU2017
+	Security -> Blanco2014
+	" Confidentiality" -> Blanco2014
+	" OLAP" -> Blanco2014
+	" Data Warehouses" -> Blanco2014
+	" Model Driven" -> Blanco2014
+	" MDA" -> Blanco2014
+	" Transformations" -> Blanco2014
+	" SSAS" -> Blanco2014
+	" Case Study." -> Blanco2014
+	"Showing the benefits of applying a model driven architecture for developing secure olap applications" -> Authors
+	Authors -> "Carlos Blanco"
+	Authors -> "Ignacio García-Rodríguez de Guzmán"
+	Authors -> "Eduardo Fernández-Medina"
+	Authors -> "Juan Trujillo"
+}

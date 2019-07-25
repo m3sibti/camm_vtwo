@@ -1,0 +1,16 @@
+strict digraph mind_map94 {
+	node [color=red shape=doubleoctagon]
+	"Enterprise information systems j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Varajão"
+	Keyword
+	"Enterprise information systems j.ucs special issue" -> "Author
+Varajão"
+	"Enterprise information systems j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Enterprise information systems j.ucs special issue" -> Authors
+	Authors -> "João Varajão"
+	Authors -> "Ricardo Martinho "
+	Authors -> "Pedro Soto Acosta "
+}

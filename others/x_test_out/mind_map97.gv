@@ -1,0 +1,33 @@
+strict digraph mind_map97 {
+	node [color=red shape=doubleoctagon]
+	"Gamification as a disruptive factor in software process improvement initiatives"
+	node [color=blue shape=diamond]
+	"Author
+Herranz"
+	Keyword
+	"Gamification as a disruptive factor in software process improvement initiatives" -> "Author
+Herranz"
+	"Gamification as a disruptive factor in software process improvement initiatives" -> Keyword
+	node [color=yellow shape=ellipse]
+	gamification
+	Keyword -> gamification
+	" organizational change management"
+	Keyword -> " organizational change management"
+	" software process improvement"
+	Keyword -> " software process improvement"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Herranz2014
+	}
+	gamification -> Herranz2014
+	" organizational change management" -> Herranz2014
+	" software process improvement" -> Herranz2014
+	"Gamification as a disruptive factor in software process improvement initiatives" -> Authors
+	Authors -> "Eduardo Herranz"
+	Authors -> "Ricardo Colomo-Palacios"
+	Authors -> "Antonio de Amescua Seco"
+	Authors -> "Murat Yilmaz"
+}

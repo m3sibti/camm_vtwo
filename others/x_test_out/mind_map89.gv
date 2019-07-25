@@ -1,0 +1,58 @@
+strict digraph mind_map89 {
+	node [color=red shape=doubleoctagon]
+	"Consistency checking in early software product line specifications - the vcc approach"
+	node [color=blue shape=diamond]
+	"Author
+Mauricio Alférez"
+	Keyword
+	"Consistency checking in early software product line specifications - the vcc approach" -> "Author
+Mauricio Alférez"
+	"Consistency checking in early software product line specifications - the vcc approach" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Model-Driven Development"
+	Keyword -> "Model-Driven Development"
+	" Variability Modeling"
+	Keyword -> " Variability Modeling"
+	" Verification"
+	Keyword -> " Verification"
+	" ModelBased Software Product Lines"
+	Keyword -> " ModelBased Software Product Lines"
+	" Requirements Engineering"
+	Keyword -> " Requirements Engineering"
+	" Architecture Design"
+	Keyword -> " Architecture Design"
+	" Feature Modeling Analysis"
+	Keyword -> " Feature Modeling Analysis"
+	" Variability-Intensive Systems"
+	Keyword -> " Variability-Intensive Systems"
+	" Highly Configurable Systems."
+	Keyword -> " Highly Configurable Systems."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Hasan2014
+		Alferez2014
+		Cubo2014a
+		Calvo2014
+	}
+	"Model-Driven Development" -> Alferez2014
+	" Variability Modeling" -> Alferez2014
+	" Verification" -> Hasan2014
+	" Verification" -> Alferez2014
+	" Verification" -> Cubo2014a
+	" ModelBased Software Product Lines" -> Alferez2014
+	" Requirements Engineering" -> Alferez2014
+	" Requirements Engineering" -> Calvo2014
+	" Architecture Design" -> Alferez2014
+	" Feature Modeling Analysis" -> Alferez2014
+	" Variability-Intensive Systems" -> Alferez2014
+	" Highly Configurable Systems." -> Alferez2014
+	"Consistency checking in early software product line specifications - the vcc approach" -> Authors
+	Authors -> "Mauricio Alférez"
+	Authors -> "Roberto E. Lopez-Herrejón"
+	Authors -> "Ana Moreira"
+	Authors -> " Vasco Amaral"
+	Authors -> "Alexander Egyed"
+}

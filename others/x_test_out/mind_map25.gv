@@ -1,0 +1,44 @@
+strict digraph mind_map25 {
+	node [color=red shape=doubleoctagon]
+	"Artificial intelligence related publication analysis based on citation counting"
+	node [color=blue shape=diamond]
+	"Author
+ZONGBAO YANG"
+	Keyword
+	"Artificial intelligence related publication analysis based on citation counting" -> "Author
+ZONGBAO YANG"
+	"Artificial intelligence related publication analysis based on citation counting" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial intelligence"
+	Keyword -> "Artificial intelligence"
+	" citation counting"
+	Keyword -> " citation counting"
+	" recommendation lists"
+	Keyword -> " recommendation lists"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		JIAFUWAN2018
+		JIAYINGLIU2018
+		LINYUAN2018
+		XIAOFEIWANG2015
+		JAMESGERARDWOLFF2014
+	}
+	"Artificial intelligence" -> JAMESGERARDWOLFF2015
+	"Artificial intelligence" -> PETROVIC2018
+	"Artificial intelligence" -> JIAFUWAN2018
+	"Artificial intelligence" -> JIAYINGLIU2018
+	"Artificial intelligence" -> LINYUAN2018
+	"Artificial intelligence" -> XIAOFEIWANG2015
+	"Artificial intelligence" -> JAMESGERARDWOLFF2014
+	"Artificial intelligence related publication analysis based on citation counting" -> Authors
+	Authors -> "ZONGBAO YANG"
+	Authors -> "SHAOHONG ZHANG"
+	Authors -> "WENJUN SHEN"
+	Authors -> "XIAOFEI XING"
+	Authors -> "YING GAO"
+}

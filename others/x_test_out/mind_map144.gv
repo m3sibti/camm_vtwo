@@ -1,0 +1,5 @@
+strict graph mind_map144 {
+	"10.1093/ijl/ecp02" -- D
+	"10.1093/ijl/ecp02" -- "10.1093/ijl/16.2.143"
+	"10.1093/ijl/ecp02" -- "10.1093/ijl/ecn040"
+}

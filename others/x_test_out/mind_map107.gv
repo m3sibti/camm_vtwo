@@ -1,0 +1,42 @@
+strict digraph mind_map107 {
+	node [color=red shape=doubleoctagon]
+	"First-person locomotion in 3D virtual environments: A usability analysis"
+	node [color=blue shape=diamond]
+	"Author
+Moya"
+	Keyword
+	"First-person locomotion in 3D virtual environments":" A usability analysis" -> "Author
+Moya"
+	"First-person locomotion in 3D virtual environments":" A usability analysis" -> Keyword
+	node [color=yellow shape=ellipse]
+	"camera control"
+	Keyword -> "camera control"
+	" locomotion"
+	Keyword -> " locomotion"
+	" navigation"
+	Keyword -> " navigation"
+	" usability"
+	Keyword -> " usability"
+	" virtual worlds"
+	Keyword -> " virtual worlds"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		"Perez-Gonzalez2014"
+		Moya2014
+	}
+	"camera control" -> Moya2014
+	" locomotion" -> Moya2014
+	" navigation" -> Moya2014
+	" usability" -> "Perez-Gonzalez2014"
+	" usability" -> Moya2014
+	" virtual worlds" -> PETROVIC2018
+	" virtual worlds" -> Moya2014
+	"First-person locomotion in 3D virtual environments":" A usability analysis" -> Authors
+	Authors -> "Sergio Moya"
+	Authors -> "Sergi Grau"
+	Authors -> "Dani Tos"
+}

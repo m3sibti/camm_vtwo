@@ -1,0 +1,26 @@
+strict digraph mind_map38 {
+	node [color=red shape=doubleoctagon]
+	"Real-time and simultaneous control of artificial limbs based on pattern recognition algorithms"
+	node [color=blue shape=diamond]
+	"Author
+Max Ortiz-Catalan"
+	Keyword
+	"Real-time and simultaneous control of artificial limbs based on pattern recognition algorithms" -> "Author
+Max Ortiz-Catalan"
+	"Real-time and simultaneous control of artificial limbs based on pattern recognition algorithms" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial limbs"
+	Keyword -> "Artificial limbs"
+	" artificial neural networks (ANN)"
+	Keyword -> " artificial neural networks (ANN)"
+	" mixed classes pattern recognition"
+	Keyword -> " mixed classes pattern recognition"
+	" prosthetic limbs"
+	Keyword -> " prosthetic limbs"
+	" simultaneous pattern recognition"
+	Keyword -> " simultaneous pattern recognition"
+	"Real-time and simultaneous control of artificial limbs based on pattern recognition algorithms" -> Authors
+	Authors -> "Max Ortiz-Catalan"
+	Authors -> "Bo Håkansson"
+	Authors -> " and Rickard Brånemark"
+}

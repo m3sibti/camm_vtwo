@@ -1,0 +1,37 @@
+strict digraph mind_map71 {
+	node [color=red shape=doubleoctagon]
+	"Translation of structural constraints from conceptual model for xml to schematron"
+	node [color=blue shape=diamond]
+	"Author
+Jakub Kl´ımek"
+	Keyword
+	"Translation of structural constraints from conceptual model for xml to schematron" -> "Author
+Jakub Kl´ımek"
+	"Translation of structural constraints from conceptual model for xml to schematron" -> Keyword
+	node [color=yellow shape=ellipse]
+	"XML schema"
+	Keyword -> "XML schema"
+	" conceptual modeling"
+	Keyword -> " conceptual modeling"
+	" Schematron"
+	Keyword -> " Schematron"
+	" translation"
+	Keyword -> " translation"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"Kl-imek2014"
+		Maly2014
+	}
+	"XML schema" -> "Kl-imek2014"
+	" conceptual modeling" -> "Kl-imek2014"
+	" Schematron" -> "Kl-imek2014"
+	" Schematron" -> Maly2014
+	" translation" -> "Kl-imek2014"
+	"Translation of structural constraints from conceptual model for xml to schematron" -> Authors
+	Authors -> "Jakub Kl´ımek"
+	Authors -> "Sobˇeslav Benda "
+	Authors -> "Martin Neˇcask´y"
+}

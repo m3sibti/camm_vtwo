@@ -1,0 +1,40 @@
+strict digraph mind_map80 {
+	node [color=red shape=doubleoctagon]
+	"Automatic authentication to cloud-based services."
+	node [color=blue shape=diamond]
+	"Author
+Vleju"
+	Keyword
+	"Automatic authentication to cloud-based services." -> "Author
+Vleju"
+	"Automatic authentication to cloud-based services." -> Keyword
+	node [color=yellow shape=ellipse]
+	": Abstract State Machine"
+	Keyword -> "":" Abstract State Machine"
+	" Automatic Authentication"
+	Keyword -> " Automatic Authentication"
+	" Client Centric"
+	Keyword -> " Client Centric"
+	" Cloud Computing"
+	Keyword -> " Cloud Computing"
+	" Identity Management"
+	Keyword -> " Identity Management"
+	" Small and Medium Enterprises"
+	Keyword -> " Small and Medium Enterprises"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Vleju2014
+	}
+	"":" Abstract State Machine" -> Vleju2014
+	" Automatic Authentication" -> Vleju2014
+	" Client Centric" -> Vleju2014
+	" Cloud Computing" -> Vleju2014
+	" Identity Management" -> Vleju2014
+	" Small and Medium Enterprises" -> Vleju2014
+	"Automatic authentication to cloud-based services." -> Authors
+	Authors -> "Mircea Boris Vleju"
+	Authors -> ""
+}

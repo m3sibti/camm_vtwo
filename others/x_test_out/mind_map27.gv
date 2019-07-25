@@ -1,0 +1,25 @@
+strict digraph mind_map27 {
+	node [color=red shape=doubleoctagon]
+	"Artificial intelligence-based student learning evaluation: A concept map-based approach for analyzing a student’s understanding of a topic"
+	node [color=blue shape=diamond]
+	"Author
+G. Pankaj Jain"
+	Keyword
+	"Artificial intelligence-based student learning evaluation":" A concept map-based approach for analyzing a student’s understanding of a topic" -> "Author
+G. Pankaj Jain"
+	"Artificial intelligence-based student learning evaluation":" A concept map-based approach for analyzing a student’s understanding of a topic" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Concept maps"
+	Keyword -> "Concept maps"
+	" evaluation"
+	Keyword -> " evaluation"
+	" probability distributions"
+	Keyword -> " probability distributions"
+	" XML parsers"
+	Keyword -> " XML parsers"
+	"Artificial intelligence-based student learning evaluation":" A concept map-based approach for analyzing a student’s understanding of a topic" -> Authors
+	Authors -> "G.Pankaj Jain"
+	Authors -> "Varadraj P.Gurupur"
+	Authors -> "Jennifer L.Schroeder"
+	Authors -> "Eileen D.Faulkenberry"
+}

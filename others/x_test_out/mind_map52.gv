@@ -1,0 +1,32 @@
+strict digraph mind_map52 {
+	node [color=red shape=doubleoctagon]
+	"Security tradeoffs in cyber physical systems: A case study survey on implantable medical devices"
+	node [color=blue shape=diamond]
+	"Author
+RIHAM ALTAWY AND AMR M. YOUSSEF"
+	Keyword
+	"Security tradeoffs in cyber physical systems":" A case study survey on implantable medical devices" -> "Author
+RIHAM ALTAWY AND AMR M. YOUSSEF"
+	"Security tradeoffs in cyber physical systems":" A case study survey on implantable medical devices" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Access control"
+	Keyword -> "Access control"
+	" cyber physical systems"
+	Keyword -> " cyber physical systems"
+	" implantable medical devices"
+	Keyword -> " implantable medical devices"
+	" security vs. safety."
+	Keyword -> " security vs. safety."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		SHENGDING2018
+	}
+	"Access control" -> SHENGDING2018
+	"Security tradeoffs in cyber physical systems":" A case study survey on implantable medical devices" -> Authors
+	Authors -> AlTawy
+	Authors -> " Riham and Youssef"
+	Authors -> " Amr M"
+}

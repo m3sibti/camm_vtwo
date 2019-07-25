@@ -1,0 +1,39 @@
+strict digraph mind_map44 {
+	node [color=red shape=doubleoctagon]
+	"An adaptive wideband delphi method to study state cyber-defence requirements"
+	node [color=blue shape=diamond]
+	"Author
+YUDHISTIRA NUGRAHA"
+	Keyword
+	"An adaptive wideband delphi method to study state cyber-defence requirements" -> "Author
+YUDHISTIRA NUGRAHA"
+	"An adaptive wideband delphi method to study state cyber-defence requirements" -> Keyword
+	node [color=yellow shape=ellipse]
+	"State self-defence"
+	Keyword -> "State self-defence"
+	" defence in depth"
+	Keyword -> " defence in depth"
+	" adaptive wideband Delphi"
+	Keyword -> " adaptive wideband Delphi"
+	" foreign surveillance"
+	Keyword -> " foreign surveillance"
+	" national interests"
+	Keyword -> " national interests"
+	" information security"
+	Keyword -> " information security"
+	" requirements."
+	Keyword -> " requirements."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Zhou2016
+	}
+	" information security" -> Zhou2016
+	"An adaptive wideband delphi method to study state cyber-defence requirements" -> Authors
+	Authors -> Nugraha
+	Authors -> " Yudhistira and Brown"
+	Authors -> " Ian and Sastrosubroto"
+	Authors -> " Ashwin Sasongko"
+}

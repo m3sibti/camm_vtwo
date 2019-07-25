@@ -1,0 +1,38 @@
+strict digraph mind_map3 {
+	node [color=red shape=doubleoctagon]
+	"A security model for preserving the privacy of medical big data in a healthcare cloud using a fog computing facility with pairing-based cryptography"
+	node [color=blue shape=diamond]
+	"Author
+HADEAL ABDULAZIZ AL HAMID"
+	Keyword
+	"A security model for preserving the privacy of medical big data in a healthcare cloud using a fog computing facility with pairing-based cryptography" -> "Author
+HADEAL ABDULAZIZ AL HAMID"
+	"A security model for preserving the privacy of medical big data in a healthcare cloud using a fog computing facility with pairing-based cryptography" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Key management"
+	Keyword -> "Key management"
+	" security and privacy"
+	Keyword -> " security and privacy"
+	" medical big data"
+	Keyword -> " medical big data"
+	" fog computing"
+	Keyword -> " fog computing"
+	" pairing-based cryptography"
+	Keyword -> " pairing-based cryptography"
+	" decoy technique."
+	Keyword -> " decoy technique."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"MOHAMMEDA.M.ABDULLAH2016"
+	}
+	" security and privacy" -> "MOHAMMEDA.M.ABDULLAH2016"
+	"A security model for preserving the privacy of medical big data in a healthcare cloud using a fog computing facility with pairing-based cryptography" -> Authors
+	Authors -> "HADEAL ABDULAZIZ AL HAMID"
+	Authors -> "SK MD MIZANUR RAHMAN"
+	Authors -> "M. SHAMIM HOSSAIN"
+	Authors -> "AHMAD ALMOGREN"
+	Authors -> "ATIF ALAMRI"
+}

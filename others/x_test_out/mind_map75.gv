@@ -1,0 +1,40 @@
+strict digraph mind_map75 {
+	node [color=red shape=doubleoctagon]
+	"Generating an excerpt of a service level agreement from a formal definition of non-functional aspects using owl"
+	node [color=blue shape=diamond]
+	"Author
+Rady"
+	Keyword
+	"Generating an excerpt of a service level agreement from a formal definition of non-functional aspects using owl" -> "Author
+Rady"
+	"Generating an excerpt of a service level agreement from a formal definition of non-functional aspects using owl" -> Keyword
+	node [color=yellow shape=ellipse]
+	QoS
+	Keyword -> QoS
+	" SLA"
+	Keyword -> " SLA"
+	" Contracting"
+	Keyword -> " Contracting"
+	" Non-Functional Aspects"
+	Keyword -> " Non-Functional Aspects"
+	" OWL"
+	Keyword -> " OWL"
+	" Ontology"
+	Keyword -> " Ontology"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Rady2014
+		Lino2014
+	}
+	QoS -> Rady2014
+	" SLA" -> Rady2014
+	" Contracting" -> Rady2014
+	" Non-Functional Aspects" -> Rady2014
+	" OWL" -> Rady2014
+	" Ontology" -> Rady2014
+	" Ontology" -> Lino2014
+	"Generating an excerpt of a service level agreement from a formal definition of non-functional aspects using owl" -> Authors
+}

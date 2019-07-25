@@ -1,0 +1,43 @@
+strict digraph mind_map62 {
+	node [color=red shape=doubleoctagon]
+	"A virtual campus for e-learning inclusion: The case of svc-g9"
+	node [color=blue shape=diamond]
+	"Author
+Daniel Perez-Gonzalez"
+	Keyword
+	"A virtual campus for e-learning inclusion":" The case of svc-g9" -> "Author
+Daniel Perez-Gonzalez"
+	"A virtual campus for e-learning inclusion":" The case of svc-g9" -> Keyword
+	node [color=yellow shape=ellipse]
+	"E-learning"
+	Keyword -> "E-learning"
+	" e-inclusion"
+	Keyword -> " e-inclusion"
+	" accessibility"
+	Keyword -> " accessibility"
+	" higher education"
+	Keyword -> " higher education"
+	" usability"
+	Keyword -> " usability"
+	" teaching innovation"
+	Keyword -> " teaching innovation"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"Perez-Gonzalez2014"
+		Moya2014
+	}
+	"E-learning" -> "Perez-Gonzalez2014"
+	" e-inclusion" -> "Perez-Gonzalez2014"
+	" accessibility" -> "Perez-Gonzalez2014"
+	" higher education" -> "Perez-Gonzalez2014"
+	" usability" -> "Perez-Gonzalez2014"
+	" usability" -> Moya2014
+	" teaching innovation" -> "Perez-Gonzalez2014"
+	"A virtual campus for e-learning inclusion":" The case of svc-g9" -> Authors
+	Authors -> "Daniel Perez-Gonzalez"
+	Authors -> "Pedro Soto-Acosta"
+	Authors -> "Simona Popa "
+}

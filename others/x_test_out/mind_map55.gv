@@ -1,0 +1,39 @@
+strict digraph mind_map55 {
+	node [color=red shape=doubleoctagon]
+	"A bi-objective hyper-heuristic support vector machines for big data cyber-security"
+	node [color=blue shape=diamond]
+	"Author
+Sabar"
+	Keyword
+	"A bi-objective hyper-heuristic support vector machines for big data cyber-security" -> "Author
+Sabar"
+	"A bi-objective hyper-heuristic support vector machines for big data cyber-security" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Hyper-heuristics"
+	Keyword -> "Hyper-heuristics"
+	" big data"
+	Keyword -> " big data"
+	" cyber security"
+	Keyword -> " cyber security"
+	" optimisation."
+	Keyword -> " optimisation."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		HADEALABDULAZIZALHAMID2017
+		BORJABORDEL2018
+		Ge2018
+		Rahman2017
+	}
+	" big data" -> HADEALABDULAZIZALHAMID2017
+	" big data" -> BORJABORDEL2018
+	" cyber security" -> Ge2018
+	" cyber security" -> Rahman2017
+	"A bi-objective hyper-heuristic support vector machines for big data cyber-security" -> Authors
+	Authors -> Sabar
+	Authors -> " Nasser R and Yi"
+	Authors -> " Xun and Song"
+	Authors -> " Andy"
+}

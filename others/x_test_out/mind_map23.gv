@@ -1,0 +1,52 @@
+strict digraph mind_map23 {
+	node [color=red shape=doubleoctagon]
+	"Artificial intelligence in the 21st century"
+	node [color=blue shape=diamond]
+	"Author
+JIAYING LIU"
+	Keyword
+	"Artificial intelligence in the 21st century" -> "Author
+JIAYING LIU"
+	"Artificial intelligence in the 21st century" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial intelligence"
+	Keyword -> "Artificial intelligence"
+	" data analytics"
+	Keyword -> " data analytics"
+	" scientific impact"
+	Keyword -> " scientific impact"
+	" science of science"
+	Keyword -> " science of science"
+	" data science"
+	Keyword -> " data science"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		JIAFUWAN2018
+		LINYUAN2018
+		ZONGBAOYANG2018
+		XIAOFEIWANG2015
+		JAMESGERARDWOLFF2014
+		MIRZAGOLAMKIBRIA2018
+	}
+	"Artificial intelligence" -> JAMESGERARDWOLFF2015
+	"Artificial intelligence" -> PETROVIC2018
+	"Artificial intelligence" -> JIAFUWAN2018
+	"Artificial intelligence" -> LINYUAN2018
+	"Artificial intelligence" -> ZONGBAOYANG2018
+	"Artificial intelligence" -> XIAOFEIWANG2015
+	"Artificial intelligence" -> JAMESGERARDWOLFF2014
+	" data analytics" -> MIRZAGOLAMKIBRIA2018
+	"Artificial intelligence in the 21st century" -> Authors
+	Authors -> "JIAYING LIU"
+	Authors -> "XIANGJIE KONG"
+	Authors -> "FENG XIA"
+	Authors -> "XIAOMEI BAI"
+	Authors -> "LEI WANG"
+	Authors -> "QING QING"
+	Authors -> "IVAN LEE"
+}

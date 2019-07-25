@@ -1,0 +1,38 @@
+strict digraph mind_map119 {
+	node [color=red shape=doubleoctagon]
+	"Developing distributed collaborative applications with html5 under the coupled objects paradigm"
+	node [color=blue shape=diamond]
+	"Author
+Baloian"
+	Keyword
+	"Developing distributed collaborative applications with html5 under the coupled objects paradigm" -> "Author
+Baloian"
+	"Developing distributed collaborative applications with html5 under the coupled objects paradigm" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Coupled objects paradigm"
+	Keyword -> "Coupled objects paradigm"
+	" synchronization"
+	Keyword -> " synchronization"
+	" HTML5"
+	Keyword -> " HTML5"
+	" mobile collaboration"
+	Keyword -> " mobile collaboration"
+	" distributed collaborative systems"
+	Keyword -> " distributed collaborative systems"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Baloian2014
+	}
+	"Coupled objects paradigm" -> Baloian2014
+	" synchronization" -> Baloian2014
+	" HTML5" -> Baloian2014
+	" mobile collaboration" -> Baloian2014
+	" distributed collaborative systems" -> Baloian2014
+	"Developing distributed collaborative applications with html5 under the coupled objects paradigm" -> Authors
+	Authors -> "Nelson Baloian"
+	Authors -> "Diego Aguirre"
+	Authors -> "Gustavo Zurita "
+}

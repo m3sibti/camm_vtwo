@@ -1,0 +1,18 @@
+strict digraph mind_map100 {
+	node [color=red shape=doubleoctagon]
+	"Adaptive services for the future internet j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Cubo"
+	Keyword
+	"Adaptive services for the future internet j.ucs special issue" -> "Author
+Cubo"
+	"Adaptive services for the future internet j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Adaptive services for the future internet j.ucs special issue" -> Authors
+	Authors -> "Javier Cubo"
+	Authors -> "Guadalupe Ortiz"
+	Authors -> " Juan Boubeta-Puig"
+	Authors -> "Howard Foster"
+	Authors -> "Winfried Lamersdorf"
+}

@@ -1,0 +1,31 @@
+strict digraph mind_map5 {
+	node [color=red shape=doubleoctagon]
+	"Circulant rainbow: A new rainbow variant with shorter private key and faster signature generation"
+	node [color=blue shape=diamond]
+	"Author
+ZHINIANG PENG AND SHAOHUA TANG"
+	Keyword
+	"Circulant rainbow":" A new rainbow variant with shorter private key and faster signature generation" -> "Author
+ZHINIANG PENG AND SHAOHUA TANG"
+	"Circulant rainbow":" A new rainbow variant with shorter private key and faster signature generation" -> Keyword
+	node [color=yellow shape=ellipse]
+	MPKC
+	Keyword -> MPKC
+	" Rainbow signature scheme"
+	Keyword -> " Rainbow signature scheme"
+	" Post-Quantum Cryptography"
+	Keyword -> " Post-Quantum Cryptography"
+	" AVX2"
+	Keyword -> " AVX2"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		HouzhenWang2016
+	}
+	MPKC -> HouzhenWang2016
+	"Circulant rainbow":" A new rainbow variant with shorter private key and faster signature generation" -> Authors
+	Authors -> "ZHINIANG PENG"
+	Authors -> "SHAOHUA TANG"
+}

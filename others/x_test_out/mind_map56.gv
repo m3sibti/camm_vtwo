@@ -1,0 +1,43 @@
+strict digraph mind_map56 {
+	node [color=red shape=doubleoctagon]
+	"Information security in big data: Privacy and data mining"
+	node [color=blue shape=diamond]
+	"Author
+Xu"
+	Keyword
+	"Information security in big data":" Privacy and data mining" -> "Author
+Xu"
+	"Information security in big data":" Privacy and data mining" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Data mining"
+	Keyword -> "Data mining"
+	" sensitive information"
+	Keyword -> " sensitive information"
+	" privacy-preserving data mining"
+	Keyword -> " privacy-preserving data mining"
+	" anonymization"
+	Keyword -> " anonymization"
+	" provenance"
+	Keyword -> " provenance"
+	" game theory"
+	Keyword -> " game theory"
+	" privacy auction"
+	Keyword -> " privacy auction"
+	" anti-tracking."
+	Keyword -> " anti-tracking."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Rahman2017
+	}
+	" provenance" -> Rahman2017
+	"Information security in big data":" Privacy and data mining" -> Authors
+	Authors -> Xu
+	Authors -> " Lei and Jiang"
+	Authors -> " Chunxiao and Wang"
+	Authors -> " Jian and Yuan"
+	Authors -> " Jian and Ren"
+	Authors -> " Yong"
+}

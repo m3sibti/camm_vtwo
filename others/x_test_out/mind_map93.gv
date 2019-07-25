@@ -1,0 +1,32 @@
+strict digraph mind_map93 {
+	node [color=red shape=doubleoctagon]
+	"What should i code now?"
+	node [color=blue shape=diamond]
+	"Author
+Luiz Laerte Nunes da Silva Junior"
+	Keyword
+	"What should i code now?" -> "Author
+Luiz Laerte Nunes da Silva Junior"
+	"What should i code now?" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Code Completion"
+	Keyword -> "Code Completion"
+	" Sequential Pattern Mining"
+	Keyword -> " Sequential Pattern Mining"
+	" Software Maintenance."
+	Keyword -> " Software Maintenance."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		SilvaJunior2014
+	}
+	"Code Completion" -> SilvaJunior2014
+	" Sequential Pattern Mining" -> SilvaJunior2014
+	" Software Maintenance." -> SilvaJunior2014
+	"What should i code now?" -> Authors
+	Authors -> "Luiz Laerte Nunes"
+	Authors -> "Alexandre Plastino"
+	Authors -> "Leonardo Gresta Paulino Murta"
+}

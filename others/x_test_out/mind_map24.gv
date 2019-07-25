@@ -1,0 +1,69 @@
+strict digraph mind_map24 {
+	node [color=red shape=doubleoctagon]
+	"Multi-center brain imaging classification using a novel 3D cnn approach"
+	node [color=blue shape=diamond]
+	"Author
+LIN YUAN"
+	Keyword
+	"Multi-center brain imaging classification using a novel 3D cnn approach" -> "Author
+LIN YUAN"
+	"Multi-center brain imaging classification using a novel 3D cnn approach" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial intelligence"
+	Keyword -> "Artificial intelligence"
+	" artificial neural networks"
+	Keyword -> " artificial neural networks"
+	" image classification"
+	Keyword -> " image classification"
+	" machine learning"
+	Keyword -> " machine learning"
+	" magnetic resonance imaging."
+	Keyword -> " magnetic resonance imaging."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		JIAFUWAN2018
+		JIAYINGLIU2018
+		ZONGBAOYANG2018
+		FERNANDOORTEGA2018
+		XIAOFEIWANG2015
+		JAMESGERARDWOLFF2014
+		MIRZAGOLAMKIBRIA2018
+		YANGXIN2018
+		Hettiarachchi2014
+		ADADI2018
+		"MaxOrtiz-Catalan2014"
+		LINCHEN2018
+		"AnnaL.Buczak2015"
+		"G-omez-S-anchez2018"
+		Rijo2014
+	}
+	"Artificial intelligence" -> JAMESGERARDWOLFF2015
+	"Artificial intelligence" -> PETROVIC2018
+	"Artificial intelligence" -> JIAFUWAN2018
+	"Artificial intelligence" -> JIAYINGLIU2018
+	"Artificial intelligence" -> ZONGBAOYANG2018
+	"Artificial intelligence" -> XIAOFEIWANG2015
+	"Artificial intelligence" -> JAMESGERARDWOLFF2014
+	" artificial neural networks" -> "MaxOrtiz-Catalan2014"
+	" artificial neural networks" -> LINCHEN2018
+	" machine learning" -> PETROVIC2018
+	" machine learning" -> FERNANDOORTEGA2018
+	" machine learning" -> MIRZAGOLAMKIBRIA2018
+	" machine learning" -> YANGXIN2018
+	" machine learning" -> Hettiarachchi2014
+	" machine learning" -> ADADI2018
+	" machine learning" -> "AnnaL.Buczak2015"
+	" machine learning" -> "G-omez-S-anchez2018"
+	" machine learning" -> Rijo2014
+	"Multi-center brain imaging classification using a novel 3D cnn approach" -> Authors
+	Authors -> "LIN YUAN "
+	Authors -> "XUE WEI"
+	Authors -> "HUI SHEN"
+	Authors -> "LING-LI ZENG"
+	Authors -> "DEWEN HU"
+}

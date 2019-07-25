@@ -1,0 +1,31 @@
+strict digraph mind_map96 {
+	node [color=red shape=doubleoctagon]
+	"A taxonomy for virtual enterprises"
+	node [color=blue shape=diamond]
+	"Author
+Putnik"
+	Keyword
+	"A taxonomy for virtual enterprises" -> "Author
+Putnik"
+	"A taxonomy for virtual enterprises" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Market of Resources"
+	Keyword -> "Market of Resources"
+	" taxonomy"
+	Keyword -> " taxonomy"
+	" virtual enterprise"
+	Keyword -> " virtual enterprise"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Putnik2014
+	}
+	"Market of Resources" -> Putnik2014
+	" taxonomy" -> Putnik2014
+	" virtual enterprise" -> Putnik2014
+	"A taxonomy for virtual enterprises" -> Authors
+	Authors -> "Goran D. Putnik"
+	Authors -> "Maria Manuela Cruz-Cunha"
+}

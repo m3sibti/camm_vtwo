@@ -1,0 +1,28 @@
+strict digraph mind_map1 {
+	node [color=red shape=doubleoctagon]
+	"A new qost-quantum blind signature from lattice assumptions"
+	node [color=blue shape=diamond]
+	"Author
+PINGYUAN ZHANG"
+	Keyword
+	"A new qost-quantum blind signature from lattice assumptions" -> "Author
+PINGYUAN ZHANG"
+	"A new qost-quantum blind signature from lattice assumptions" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Post-quantum cryptography"
+	Keyword -> "Post-quantum cryptography"
+	" blind signatures"
+	Keyword -> " blind signatures"
+	" lattices"
+	Keyword -> " lattices"
+	" provable security"
+	Keyword -> " provable security"
+	" digital cash system."
+	Keyword -> " digital cash system."
+	"A new qost-quantum blind signature from lattice assumptions" -> Authors
+	Authors -> "PINGYUAN ZHANG"
+	Authors -> "ZHIHUA ZHENG"
+	Authors -> "HAN JIANG"
+	Authors -> "PEICHU HU"
+	Authors -> "QIULIANG XU"
+}

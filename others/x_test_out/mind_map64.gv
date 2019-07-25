@@ -1,0 +1,34 @@
+strict digraph mind_map64 {
+	node [color=red shape=doubleoctagon]
+	"Unsupervised structured data extraction from template-generated web pages"
+	node [color=blue shape=diamond]
+	"Author
+Grigalis"
+	Keyword
+	"Unsupervised structured data extraction from template-generated web pages" -> "Author
+Grigalis"
+	"Unsupervised structured data extraction from template-generated web pages" -> Keyword
+	node [color=yellow shape=ellipse]
+	"data extraction"
+	Keyword -> "data extraction"
+	" wrapper induction"
+	Keyword -> " wrapper induction"
+	" structured web data"
+	Keyword -> " structured web data"
+	" Deep Web"
+	Keyword -> " Deep Web"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Grigalis2014
+	}
+	"data extraction" -> Grigalis2014
+	" wrapper induction" -> Grigalis2014
+	" structured web data" -> Grigalis2014
+	" Deep Web" -> Grigalis2014
+	"Unsupervised structured data extraction from template-generated web pages" -> Authors
+	Authors -> "Tomas Grigalis"
+	Authors -> "Antanas Čenys"
+}

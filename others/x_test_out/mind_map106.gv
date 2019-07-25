@@ -1,0 +1,42 @@
+strict digraph mind_map106 {
+	node [color=red shape=doubleoctagon]
+	"A user-aware approach to provide adaptive web services"
+	node [color=blue shape=diamond]
+	"Author
+Chiraz El Hog"
+	Keyword
+	"A user-aware approach to provide adaptive web services" -> "Author
+Chiraz El Hog"
+	"A user-aware approach to provide adaptive web services" -> Keyword
+	node [color=yellow shape=ellipse]
+	HCI
+	Keyword -> HCI
+	" adaptation"
+	Keyword -> " adaptation"
+	" uddi"
+	Keyword -> " uddi"
+	" uml"
+	Keyword -> " uml"
+	" web service"
+	Keyword -> " web service"
+	" wsdl"
+	Keyword -> " wsdl"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Hog2014
+	}
+	HCI -> Hog2014
+	" adaptation" -> Hog2014
+	" uddi" -> Hog2014
+	" uml" -> Hog2014
+	" web service" -> Hog2014
+	" wsdl" -> Hog2014
+	"A user-aware approach to provide adaptive web services" -> Authors
+	Authors -> "Chiraz El Hog"
+	Authors -> " Raoudha Ben Djemaa"
+	Authors -> " Ikram Amous"
+	Authors -> ""
+}

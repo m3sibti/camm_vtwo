@@ -1,0 +1,17 @@
+strict digraph mind_map67 {
+	node [color=red shape=doubleoctagon]
+	"New trends in massive open online courses (moocs) j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Rocael Hernández Rizzardini"
+	Keyword
+	"New trends in massive open online courses (moocs) j.ucs special issue" -> "Author
+Rocael Hernández Rizzardini"
+	"New trends in massive open online courses (moocs) j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"New trends in massive open online courses (moocs) j.ucs special issue" -> Authors
+	Authors -> "Rocael Hernández Rizzardini "
+	Authors -> "António Moreira Teixeira "
+	Authors -> "Carlos Alario-Hoyos "
+	Authors -> "Héctor R. Amado-Salvatierra"
+}

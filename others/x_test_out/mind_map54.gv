@@ -1,0 +1,41 @@
+strict digraph mind_map54 {
+	node [color=red shape=doubleoctagon]
+	"Assessing the cyber-trustworthiness of human-as-a-sensor reports from mobile devices"
+	node [color=blue shape=diamond]
+	"Author
+Rahman"
+	Keyword
+	"Assessing the cyber-trustworthiness of human-as-a-sensor reports from mobile devices" -> "Author
+Rahman"
+	"Assessing the cyber-trustworthiness of human-as-a-sensor reports from mobile devices" -> Keyword
+	node [color=yellow shape=ellipse]
+	"human-as-a-sensor"
+	Keyword -> "human-as-a-sensor"
+	" information trustworthliness"
+	Keyword -> " information trustworthliness"
+	" cyber security"
+	Keyword -> " cyber security"
+	" provenance of information"
+	Keyword -> " provenance of information"
+	" mobile security"
+	Keyword -> " mobile security"
+	" location spoofing"
+	Keyword -> " location spoofing"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Ge2018
+		Sabar2016
+	}
+	" cyber security" -> Ge2018
+	" cyber security" -> Sabar2016
+	"Assessing the cyber-trustworthiness of human-as-a-sensor reports from mobile devices" -> Authors
+	Authors -> Rahman
+	Authors -> " Syed Sadiqur and Heartfield"
+	Authors -> " Ryan and Oliff"
+	Authors -> " William and Loukas"
+	Authors -> " George and Filippoupolitis"
+	Authors -> " Avgoustinos"
+}

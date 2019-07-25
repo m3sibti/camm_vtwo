@@ -1,0 +1,46 @@
+strict digraph mind_map28 {
+	node [color=red shape=doubleoctagon]
+	"Artificial intelligence-based techniques for emerging heterogeneous network: State of the arts, opportunities, and challenges"
+	node [color=blue shape=diamond]
+	"Author
+XIAOFEI WANG"
+	Keyword
+	"Artificial intelligence-based techniques for emerging heterogeneous network":" State of the arts, opportunities, and challenges" -> "Author
+XIAOFEI WANG"
+	"Artificial intelligence-based techniques for emerging heterogeneous network":" State of the arts, opportunities, and challenges" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial intelligence"
+	Keyword -> "Artificial intelligence"
+	" genetic algorithms"
+	Keyword -> " genetic algorithms"
+	" ant colony optimization"
+	Keyword -> " ant colony optimization"
+	" self-organization networks"
+	Keyword -> " self-organization networks"
+	" heterogeneous networks."
+	Keyword -> " heterogeneous networks."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		JIAFUWAN2018
+		JIAYINGLIU2018
+		LINYUAN2018
+		ZONGBAOYANG2018
+		JAMESGERARDWOLFF2014
+	}
+	"Artificial intelligence" -> JAMESGERARDWOLFF2015
+	"Artificial intelligence" -> PETROVIC2018
+	"Artificial intelligence" -> JIAFUWAN2018
+	"Artificial intelligence" -> JIAYINGLIU2018
+	"Artificial intelligence" -> LINYUAN2018
+	"Artificial intelligence" -> ZONGBAOYANG2018
+	"Artificial intelligence" -> JAMESGERARDWOLFF2014
+	"Artificial intelligence-based techniques for emerging heterogeneous network":" State of the arts, opportunities, and challenges" -> Authors
+	Authors -> "XIAOFEI WANG"
+	Authors -> " XIUHUA LI"
+	Authors -> "VICTOR C.M.LEUNG"
+}

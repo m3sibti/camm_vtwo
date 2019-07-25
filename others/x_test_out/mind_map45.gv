@@ -1,0 +1,94 @@
+strict digraph mind_map45 {
+	node [color=red shape=doubleoctagon]
+	"Conceptual systems security requirements analysis: Aerial refueling case study"
+	node [color=blue shape=diamond]
+	"Author
+MARTIN SPAN"
+	Keyword
+	"Conceptual systems security requirements analysis":" Aerial refueling case study" -> "Author
+MARTIN SPAN"
+	"Conceptual systems security requirements analysis":" Aerial refueling case study" -> Keyword
+	node [color=yellow shape=ellipse]
+	Cybersecurity
+	Keyword -> Cybersecurity
+	" requirements engineering"
+	Keyword -> " requirements engineering"
+	" security"
+	Keyword -> " security"
+	" security engineering"
+	Keyword -> " security engineering"
+	" systems engineering"
+	Keyword -> " systems engineering"
+	" systems security engineering."
+	Keyword -> " systems security engineering."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PENGHAO2018
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		Zhou2016
+		ZarkoStanisavljevic2014
+		FagenLi2016
+		TANPINGZHOU2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		YANGXIN2018
+		BORJABORDEL2018
+		"S.M.RIAZULISLAM2015"
+		SHANLIU2013
+		YUDHISTIRANUGRAHA2015
+		ZHIHONGTIAN2018
+		IVOFRIEDBERG2017
+		RAMIREZ2016
+		Ge2018
+		"LU-XINGYANG2017"
+		ALTAWY2016
+		STEPHENKHOU2017
+		Rahman2017
+		Sabar2016
+	}
+	Cybersecurity -> YANGXIN2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PENGHAO2018
+	" security" -> PINGYUANZHANG2018
+	" security" -> KHASAWNEH2017
+	" security" -> HADEALABDULAZIZALHAMID2017
+	" security" -> Zhou2016
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> ZarkoStanisavljevic2014
+	" security" -> FagenLi2016
+	" security" -> TANPINGZHOU2018
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" security" -> BORJABORDEL2018
+	" security" -> "S.M.RIAZULISLAM2015"
+	" security" -> SHANLIU2013
+	" security" -> YUDHISTIRANUGRAHA2015
+	" security" -> ZHIHONGTIAN2018
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> IVOFRIEDBERG2017
+	" security" -> RAMIREZ2016
+	" security" -> RAMIREZ2016
+	" security" -> Ge2018
+	" security" -> "LU-XINGYANG2017"
+	" security" -> ALTAWY2016
+	" security" -> STEPHENKHOU2017
+	" security" -> STEPHENKHOU2017
+	" security" -> Rahman2017
+	" security" -> Rahman2017
+	" security" -> Sabar2016
+	" security engineering" -> STEPHENKHOU2017
+	" security engineering" -> STEPHENKHOU2017
+	" systems engineering" -> STEPHENKHOU2017
+	"Conceptual systems security requirements analysis":" Aerial refueling case study" -> Authors
+	Authors -> Span
+	Authors -> " Martin and Mailloux"
+	Authors -> " Logan O and Mills"
+	Authors -> " Robert F and Young"
+	Authors -> " William"
+}

@@ -1,0 +1,35 @@
+strict digraph mind_map57 {
+	node [color=red shape=doubleoctagon]
+	"DIE: A domain specific aspect language for ide events"
+	node [color=blue shape=diamond]
+	"Author
+Fabry"
+	Keyword
+	DIE:" A domain specific aspect language for ide events" -> "Author
+Fabry"
+	DIE:" A domain specific aspect language for ide events" -> Keyword
+	node [color=yellow shape=ellipse]
+	IDE
+	Keyword -> IDE
+	" Plugins"
+	Keyword -> " Plugins"
+	" Development Environment"
+	Keyword -> " Development Environment"
+	" Domain Specific Aspect Languages"
+	Keyword -> " Domain Specific Aspect Languages"
+	" Aspects"
+	Keyword -> " Aspects"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Rady2014
+	}
+	" Aspects" -> Rady2014
+	DIE:" A domain specific aspect language for ide events" -> Authors
+	Authors -> Fabry
+	Authors -> " Johan and Robbes"
+	Authors -> " Romain and Denker"
+	Authors -> " Marcus and others"
+}

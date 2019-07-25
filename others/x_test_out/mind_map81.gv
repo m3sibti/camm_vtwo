@@ -1,0 +1,39 @@
+strict digraph mind_map81 {
+	node [color=red shape=doubleoctagon]
+	"An approach to skew detection of printed documents"
+	node [color=blue shape=diamond]
+	"Author
+Darko Brodić"
+	Keyword
+	"An approach to skew detection of printed documents" -> "Author
+Darko Brodić"
+	"An approach to skew detection of printed documents" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Document image analysis"
+	Keyword -> "Document image analysis"
+	" Connected component analysis"
+	Keyword -> " Connected component analysis"
+	" Statistical analysis"
+	Keyword -> " Statistical analysis"
+	" Moment based method"
+	Keyword -> " Moment based method"
+	" Skew estimation"
+	Keyword -> " Skew estimation"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Brodic2014
+	}
+	"Document image analysis" -> Brodic2014
+	" Connected component analysis" -> Brodic2014
+	" Statistical analysis" -> Brodic2014
+	" Moment based method" -> Brodic2014
+	" Skew estimation" -> Brodic2014
+	"An approach to skew detection of printed documents" -> Authors
+	Authors -> "Darko Brodić"
+	Authors -> "Carlos A. B. Mello"
+	Authors -> "Čedomir A. Maluckov "
+	Authors -> "Zoran N. Milivojević"
+}

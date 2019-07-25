@@ -1,0 +1,33 @@
+strict digraph mind_map6 {
+	node [color=red shape=doubleoctagon]
+	"COALA-system for visual representation of cryptography algorithms"
+	node [color=blue shape=diamond]
+	"Author
+Zarko Stanisavljevic"
+	Keyword
+	"COALA-system for visual representation of cryptography algorithms" -> "Author
+Zarko Stanisavljevic"
+	"COALA-system for visual representation of cryptography algorithms" -> Keyword
+	node [color=yellow shape=ellipse]
+	AES
+	Keyword -> AES
+	" algorithm visualization"
+	Keyword -> " algorithm visualization"
+	" cryptographic algorithms"
+	Keyword -> " cryptographic algorithms"
+	" data security"
+	Keyword -> " data security"
+	" DES"
+	Keyword -> " DES"
+	" Diffie-Hellman"
+	Keyword -> " Diffie-Hellman"
+	" RSA"
+	Keyword -> " RSA"
+	" security education"
+	Keyword -> " security education"
+	"COALA-system for visual representation of cryptography algorithms" -> Authors
+	Authors -> "Zarko Stanisavljevic"
+	Authors -> " Jelena Stanisavljevic"
+	Authors -> " Pavle Vuletic"
+	Authors -> " and Zoran Jovanovic"
+}

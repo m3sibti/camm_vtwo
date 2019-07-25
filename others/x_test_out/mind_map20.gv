@@ -1,0 +1,66 @@
+strict digraph mind_map20 {
+	node [color=red shape=doubleoctagon]
+	"The sp theory of intelligence: Distinctive features and advantages"
+	node [color=blue shape=diamond]
+	"Author
+JAMES GERARD WOLFF"
+	Keyword
+	"The sp theory of intelligence":" Distinctive features and advantages" -> "Author
+JAMES GERARD WOLFF"
+	"The sp theory of intelligence":" Distinctive features and advantages" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial intelligence"
+	Keyword -> "Artificial intelligence"
+	" information compression"
+	Keyword -> " information compression"
+	" multiple alignment"
+	Keyword -> " multiple alignment"
+	" perception"
+	Keyword -> " perception"
+	" cognition"
+	Keyword -> " cognition"
+	" neural networks"
+	Keyword -> " neural networks"
+	" deep learning"
+	Keyword -> " deep learning"
+	" unsupervised learning"
+	Keyword -> " unsupervised learning"
+	" reasoning"
+	Keyword -> " reasoning"
+	" mathematics."
+	Keyword -> " mathematics."
+	node [color=black shape=circle]
+	JAMESGERARDWOLFF2014
+	"Author
+JAMES GERARD WOLFF" -> JAMESGERARDWOLFF2014
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		JIAFUWAN2018
+		JIAYINGLIU2018
+		LINYUAN2018
+		ZONGBAOYANG2018
+		XIAOFEIWANG2015
+		JAMESGERARDWOLFF2014
+		YANGXIN2018
+		"MaxOrtiz-Catalan2014"
+		LINCHEN2018
+	}
+	"Artificial intelligence" -> PETROVIC2018
+	"Artificial intelligence" -> JIAFUWAN2018
+	"Artificial intelligence" -> JIAYINGLIU2018
+	"Artificial intelligence" -> LINYUAN2018
+	"Artificial intelligence" -> ZONGBAOYANG2018
+	"Artificial intelligence" -> XIAOFEIWANG2015
+	"Artificial intelligence" -> JAMESGERARDWOLFF2014
+	" neural networks" -> LINYUAN2018
+	" neural networks" -> "MaxOrtiz-Catalan2014"
+	" neural networks" -> LINCHEN2018
+	" deep learning" -> YANGXIN2018
+	" deep learning" -> LINCHEN2018
+	" unsupervised learning" -> JAMESGERARDWOLFF2014
+	"The sp theory of intelligence":" Distinctive features and advantages" -> Authors
+}

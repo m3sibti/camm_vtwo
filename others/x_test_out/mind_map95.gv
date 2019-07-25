@@ -1,0 +1,40 @@
+strict digraph mind_map95 {
+	node [color=red shape=doubleoctagon]
+	"Using and extending formal concept analysis to visualise variability during requirements engineering"
+	node [color=blue shape=diamond]
+	"Author
+Huysegoms"
+	Keyword
+	"Using and extending formal concept analysis to visualise variability during requirements engineering" -> "Author
+Huysegoms"
+	"Using and extending formal concept analysis to visualise variability during requirements engineering" -> Keyword
+	node [color=yellow shape=ellipse]
+	": Requirements Management"
+	Keyword -> "":" Requirements Management"
+	" Variability Management"
+	Keyword -> " Variability Management"
+	" Formal Concept Analysis"
+	Keyword -> " Formal Concept Analysis"
+	" Harmonization"
+	Keyword -> " Harmonization"
+	" Variabilization"
+	Keyword -> " Variabilization"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Huysegoms2014
+	}
+	"":" Requirements Management" -> Huysegoms2014
+	" Variability Management" -> Huysegoms2014
+	" Formal Concept Analysis" -> Huysegoms2014
+	" Harmonization" -> Huysegoms2014
+	" Variabilization" -> Huysegoms2014
+	"Using and extending formal concept analysis to visualise variability during requirements engineering" -> Authors
+	Authors -> "Tom Huysegoms"
+	Authors -> "Monique Snoeck"
+	Authors -> "Guido Dedene"
+	Authors -> "Antoon Goderis"
+	Authors -> "Frank Stumpe"
+}

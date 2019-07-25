@@ -1,0 +1,36 @@
+strict digraph mind_map87 {
+	node [color=red shape=doubleoctagon]
+	"A toolset for checking spl refinements"
+	node [color=blue shape=diamond]
+	"Author
+Ferreira"
+	Keyword
+	"A toolset for checking spl refinements" -> "Author
+Ferreira"
+	"A toolset for checking spl refinements" -> Keyword
+	node [color=yellow shape=ellipse]
+	"software product lines"
+	Keyword -> "software product lines"
+	" safe evolution"
+	Keyword -> " safe evolution"
+	" refactoring"
+	Keyword -> " refactoring"
+	" checking tools"
+	Keyword -> " checking tools"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Ferreira2014
+	}
+	"software product lines" -> Ferreira2014
+	" safe evolution" -> Ferreira2014
+	" refactoring" -> Ferreira2014
+	" checking tools" -> Ferreira2014
+	"A toolset for checking spl refinements" -> Authors
+	Authors -> "Felype Ferreira"
+	Authors -> "Rohit Gheyi"
+	Authors -> "Paulo Borba"
+	Authors -> "Gustavo Soares3."
+}

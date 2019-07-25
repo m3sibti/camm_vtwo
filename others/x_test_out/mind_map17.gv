@@ -1,0 +1,39 @@
+strict digraph mind_map17 {
+	node [color=red shape=doubleoctagon]
+	"A framework for iris biometrics protection: A marriage between watermarking and visual cryptography"
+	node [color=blue shape=diamond]
+	"Author
+MOHAMMED A. M. ABDULLAH"
+	Keyword
+	"A framework for iris biometrics protection":" A marriage between watermarking and visual cryptography" -> "Author
+MOHAMMED A. M. ABDULLAH"
+	"A framework for iris biometrics protection":" A marriage between watermarking and visual cryptography" -> Keyword
+	node [color=yellow shape=ellipse]
+	Biometrics
+	Keyword -> Biometrics
+	" iris recognition"
+	Keyword -> " iris recognition"
+	" security and privacy protection"
+	Keyword -> " security and privacy protection"
+	" watermarking"
+	Keyword -> " watermarking"
+	" smart card"
+	Keyword -> " smart card"
+	" template security"
+	Keyword -> " template security"
+	" visual cryptography."
+	Keyword -> " visual cryptography."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		SHUMINGQIU2017
+	}
+	" smart card" -> SHUMINGQIU2017
+	"A framework for iris biometrics protection":" A marriage between watermarking and visual cryptography" -> Authors
+	Authors -> "MOHAMMED A. M.ABDULLAH"
+	Authors -> "SATNAM S.DLAY "
+	Authors -> "WAI L.WOO"
+	Authors -> "JONATHON A.CHAMBERS"
+}

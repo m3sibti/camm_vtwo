@@ -1,0 +1,38 @@
+strict digraph mind_mapYang2014 {
+	node [color=red shape=doubleoctagon]
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	node [color=blue shape=diamond]
+	"Author
+Yang"
+	Keyword
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks" -> "Author
+Yang"
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks" -> Keyword
+	"Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks" -> "Co-Authors"
+	node [color=yellow shape=ellipse]
+	"multi-radio multi-channel wireless mesh network"
+	Keyword -> "multi-radio multi-channel wireless mesh network"
+	" overlapping channel assignment"
+	Keyword -> " overlapping channel assignment"
+	" capacity optimization"
+	Keyword -> " capacity optimization"
+	" graph coloring"
+	Keyword -> " graph coloring"
+	" Max-Cut"
+	Keyword -> " Max-Cut"
+	node [color=purple shape=rectangle]
+	"Co-Authors" -> Yang
+	"Co-Authors" -> " Ming and Liu"
+	"Co-Authors" -> " Bo and Wang"
+	"Co-Authors" -> " Wei and Luo"
+	"Co-Authors" -> " Junzhou and Shen"
+	"Co-Authors" -> " Xiaojun"
+	node [color=blue shape=octagon]
+	Yang -> "Security evaluation of the cyber networks under advanced persistent threats"
+	Yang -> "Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	" Ming and Liu" -> "Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	" Bo and Wang" -> "Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	" Wei and Luo" -> "Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	" Junzhou and Shen" -> "Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+	" Xiaojun" -> "Maximum capacity overlapping channel assignment based on max-cut in 802.11 wireless mesh networks"
+}

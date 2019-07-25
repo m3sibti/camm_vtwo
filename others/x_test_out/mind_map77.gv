@@ -1,0 +1,45 @@
+strict digraph mind_map77 {
+	node [color=red shape=doubleoctagon]
+	"An approach for mapping domain-specific aom applications to a general model"
+	node [color=blue shape=diamond]
+	"Author
+Matsumoto"
+	Keyword
+	"An approach for mapping domain-specific aom applications to a general model" -> "Author
+Matsumoto"
+	"An approach for mapping domain-specific aom applications to a general model" -> Keyword
+	node [color=yellow shape=ellipse]
+	framework
+	Keyword -> framework
+	" metadata"
+	Keyword -> " metadata"
+	" modularity"
+	Keyword -> " modularity"
+	" architecture"
+	Keyword -> " architecture"
+	" adaptive system"
+	Keyword -> " adaptive system"
+	" decoupling"
+	Keyword -> " decoupling"
+	" Adaptive Object Model."
+	Keyword -> " Adaptive Object Model."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"S.M.RIAZULISLAM2015"
+		Matsumoto2014
+	}
+	framework -> Matsumoto2014
+	" metadata" -> Matsumoto2014
+	" modularity" -> Matsumoto2014
+	" architecture" -> "S.M.RIAZULISLAM2015"
+	" architecture" -> Matsumoto2014
+	" adaptive system" -> Matsumoto2014
+	" decoupling" -> Matsumoto2014
+	" Adaptive Object Model." -> Matsumoto2014
+	"An approach for mapping domain-specific aom applications to a general model" -> Authors
+	Authors -> "Patricia Matsumoto"
+	Authors -> "Eduardo Guerra"
+}

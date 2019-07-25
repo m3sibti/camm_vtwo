@@ -1,0 +1,40 @@
+strict digraph mind_map70 {
+	node [color=red shape=doubleoctagon]
+	"Towards an extended model of conceptual representations in formal ontologies: A typicality-based proposal"
+	node [color=blue shape=diamond]
+	"Author
+Frixione"
+	Keyword
+	"Towards an extended model of conceptual representations in formal ontologies":" A typicality-based proposal" -> "Author
+Frixione"
+	"Towards an extended model of conceptual representations in formal ontologies":" A typicality-based proposal" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Concept Representation"
+	Keyword -> "Concept Representation"
+	" Formal Ontologies"
+	Keyword -> " Formal Ontologies"
+	" Concepts Theories"
+	Keyword -> " Concepts Theories"
+	" Conceptual Spaces"
+	Keyword -> " Conceptual Spaces"
+	" Prototypes"
+	Keyword -> " Prototypes"
+	" Hybrid Conceptual Representation"
+	Keyword -> " Hybrid Conceptual Representation"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Frixione2014
+	}
+	"Concept Representation" -> Frixione2014
+	" Formal Ontologies" -> Frixione2014
+	" Concepts Theories" -> Frixione2014
+	" Conceptual Spaces" -> Frixione2014
+	" Prototypes" -> Frixione2014
+	" Hybrid Conceptual Representation" -> Frixione2014
+	"Towards an extended model of conceptual representations in formal ontologies":" A typicality-based proposal" -> Authors
+	Authors -> "Marcello Frixione"
+	Authors -> "Antonio Lieto"
+}

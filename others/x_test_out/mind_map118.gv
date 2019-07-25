@@ -1,0 +1,16 @@
+strict digraph mind_map118 {
+	node [color=red shape=doubleoctagon]
+	"Collaborative computing and applications j.ucs special issue"
+	node [color=blue shape=diamond]
+	"Author
+Shen"
+	Keyword
+	"Collaborative computing and applications j.ucs special issue" -> "Author
+Shen"
+	"Collaborative computing and applications j.ucs special issue" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Collaborative computing and applications j.ucs special issue" -> Authors
+	Authors -> "Weiming Shen"
+	Authors -> "Weidong Li"
+	Authors -> "Jose Alberto Pino"
+}

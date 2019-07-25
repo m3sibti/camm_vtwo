@@ -1,0 +1,36 @@
+strict digraph mind_map91 {
+	node [color=red shape=doubleoctagon]
+	"A catalogue of refactorings to remove incomplete annotations"
+	node [color=blue shape=diamond]
+	"Author
+Fl´avio Medeiros"
+	Keyword
+	"A catalogue of refactorings to remove incomplete annotations" -> "Author
+Fl´avio Medeiros"
+	"A catalogue of refactorings to remove incomplete annotations" -> Keyword
+	node [color=yellow shape=ellipse]
+	": Refactoring"
+	Keyword -> "":" Refactoring"
+	" C Language"
+	Keyword -> " C Language"
+	" Preprocessors"
+	Keyword -> " Preprocessors"
+	" Program Families"
+	Keyword -> " Program Families"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Medeiros2014
+	}
+	"":" Refactoring" -> Medeiros2014
+	" C Language" -> Medeiros2014
+	" Preprocessors" -> Medeiros2014
+	" Program Families" -> Medeiros2014
+	"A catalogue of refactorings to remove incomplete annotations" -> Authors
+	Authors -> "Fl´avio Medeiros"
+	Authors -> "M´arcio Ribeiro"
+	Authors -> "Rohit Gheyi"
+	Authors -> "Baldoino Fonseca"
+}

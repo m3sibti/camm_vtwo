@@ -1,0 +1,25 @@
+strict digraph mind_map13 {
+	node [color=red shape=doubleoctagon]
+	"Performance costs of software cryptography in securing new-generation internet of energy endpoint devices"
+	node [color=blue shape=diamond]
+	"Author
+LEHLOGONOLO P. I. LEDWABA"
+	Keyword
+	"Performance costs of software cryptography in securing new-generation internet of energy endpoint devices" -> "Author
+LEHLOGONOLO P. I. LEDWABA"
+	"Performance costs of software cryptography in securing new-generation internet of energy endpoint devices" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Industrial Internet of Things"
+	Keyword -> "Industrial Internet of Things"
+	" Internet of Energy"
+	Keyword -> " Internet of Energy"
+	" Embedded Security"
+	Keyword -> " Embedded Security"
+	" Smart Grid."
+	Keyword -> " Smart Grid."
+	"Performance costs of software cryptography in securing new-generation internet of energy endpoint devices" -> Authors
+	Authors -> "LEHLOGONOLO P.I.LEDWABA"
+	Authors -> "GERHARD P.HANCKE"
+	Authors -> "HEIN S.VENTER"
+	Authors -> "SHERRIN J.ISAAC"
+}

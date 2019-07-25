@@ -1,0 +1,39 @@
+strict digraph mind_map111 {
+	node [color=red shape=doubleoctagon]
+	"EmotionsOnto: An ontology for developing affective applicationsc"
+	node [color=blue shape=diamond]
+	"Author
+Juan-Miguel López-Gil"
+	Keyword
+	EmotionsOnto:" An ontology for developing affective applicationsc" -> "Author
+Juan-Miguel López-Gil"
+	EmotionsOnto:" An ontology for developing affective applicationsc" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Design of affective interaction systems"
+	Keyword -> "Design of affective interaction systems"
+	" emotions"
+	Keyword -> " emotions"
+	" ontologies"
+	Keyword -> " ontologies"
+	" context"
+	Keyword -> " context"
+	" multimodality"
+	Keyword -> " multimodality"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"Lopez-Gil2014"
+	}
+	"Design of affective interaction systems" -> "Lopez-Gil2014"
+	" emotions" -> "Lopez-Gil2014"
+	" ontologies" -> "Lopez-Gil2014"
+	" context" -> "Lopez-Gil2014"
+	" multimodality" -> "Lopez-Gil2014"
+	EmotionsOnto:" An ontology for developing affective applicationsc" -> Authors
+	Authors -> "Juan-Miguel López-Gil"
+	Authors -> "Rosa Gil"
+	Authors -> " Roberto García"
+	Authors -> "Cesar A. Collazos"
+}

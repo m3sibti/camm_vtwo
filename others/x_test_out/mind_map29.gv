@@ -1,0 +1,52 @@
+strict digraph mind_map29 {
+	node [color=red shape=doubleoctagon]
+	"Autonomous robots and the sp theory of intelligence"
+	node [color=blue shape=diamond]
+	"Author
+JAMES GERARD WOLFF"
+	Keyword
+	"Autonomous robots and the sp theory of intelligence" -> "Author
+JAMES GERARD WOLFF"
+	"Autonomous robots and the sp theory of intelligence" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Artificial intelligence"
+	Keyword -> "Artificial intelligence"
+	" robots"
+	Keyword -> " robots"
+	" cognitive science"
+	Keyword -> " cognitive science"
+	" data compression"
+	Keyword -> " data compression"
+	" pattern recognition"
+	Keyword -> " pattern recognition"
+	" unsupervised learning."
+	Keyword -> " unsupervised learning."
+	node [color=black shape=circle]
+	JAMESGERARDWOLFF2015
+	"Author
+JAMES GERARD WOLFF" -> JAMESGERARDWOLFF2015
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		JAMESGERARDWOLFF2015
+		PETROVIC2018
+		JIAFUWAN2018
+		JIAYINGLIU2018
+		LINYUAN2018
+		ZONGBAOYANG2018
+		XIAOFEIWANG2015
+		"MaxOrtiz-Catalan2014"
+	}
+	"Artificial intelligence" -> JAMESGERARDWOLFF2015
+	"Artificial intelligence" -> PETROVIC2018
+	"Artificial intelligence" -> JIAFUWAN2018
+	"Artificial intelligence" -> JIAYINGLIU2018
+	"Artificial intelligence" -> LINYUAN2018
+	"Artificial intelligence" -> ZONGBAOYANG2018
+	"Artificial intelligence" -> XIAOFEIWANG2015
+	" pattern recognition" -> "MaxOrtiz-Catalan2014"
+	" pattern recognition" -> "MaxOrtiz-Catalan2014"
+	"Autonomous robots and the sp theory of intelligence" -> Authors
+}

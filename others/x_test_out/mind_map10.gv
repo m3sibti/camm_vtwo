@@ -1,0 +1,36 @@
+strict digraph mind_map10 {
+	node [color=red shape=doubleoctagon]
+	"Elliptic curve lightweight cryptography: A survey"
+	node [color=blue shape=diamond]
+	"Author
+CARLOS A. LARA-NINO"
+	Keyword
+	"Elliptic curve lightweight cryptography":" A survey" -> "Author
+CARLOS A. LARA-NINO"
+	"Elliptic curve lightweight cryptography":" A survey" -> Keyword
+	node [color=yellow shape=ellipse]
+	Cryptography
+	Keyword -> Cryptography
+	" Elliptic Curve"
+	Keyword -> " Elliptic Curve"
+	" Lightweight"
+	Keyword -> " Lightweight"
+	" Survey"
+	Keyword -> " Survey"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		ZHINIANG2017
+		HouzhenWang2016
+		Hasan2014
+	}
+	Cryptography -> ZHINIANG2017
+	Cryptography -> HouzhenWang2016
+	Cryptography -> Hasan2014
+	"Elliptic curve lightweight cryptography":" A survey" -> Authors
+	Authors -> "CARLOS ANDRES LARA-NINO"
+	Authors -> "ARTURO DIAZ-PEREZ"
+	Authors -> "MIGUEL MORALES-SANDOVAL"
+}

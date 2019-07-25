@@ -1,0 +1,43 @@
+strict digraph mind_map84 {
+	node [color=red shape=doubleoctagon]
+	"Evaluation of ocl expressions over xml data model"
+	node [color=blue shape=diamond]
+	"Author
+Malý"
+	Keyword
+	"Evaluation of ocl expressions over xml data model" -> "Author
+Malý"
+	"Evaluation of ocl expressions over xml data model" -> Keyword
+	node [color=yellow shape=ellipse]
+	MDA
+	Keyword -> MDA
+	" OCL"
+	Keyword -> " OCL"
+	" Schematron"
+	Keyword -> " Schematron"
+	" XML"
+	Keyword -> " XML"
+	" integrity constraints"
+	Keyword -> " integrity constraints"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		"G.PankajJain2014"
+		Blanco2014
+		"Kl-imek2014"
+		Maly2014
+	}
+	MDA -> Blanco2014
+	MDA -> Maly2014
+	" OCL" -> Maly2014
+	" Schematron" -> "Kl-imek2014"
+	" Schematron" -> Maly2014
+	" XML" -> "G.PankajJain2014"
+	" XML" -> Maly2014
+	" integrity constraints" -> Maly2014
+	"Evaluation of ocl expressions over xml data model" -> Authors
+	Authors -> "Jakub Maly"
+	Authors -> "Martin Necasky "
+}

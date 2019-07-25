@@ -1,0 +1,60 @@
+strict digraph mind_map11 {
+	node [color=red shape=doubleoctagon]
+	"Faster bootstrapping with multiple addends"
+	node [color=blue shape=diamond]
+	"Author
+TANPING ZHOU"
+	Keyword
+	"Faster bootstrapping with multiple addends" -> "Author
+TANPING ZHOU"
+	"Faster bootstrapping with multiple addends" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Data security"
+	Keyword -> "Data security"
+	" cryptography"
+	Keyword -> " cryptography"
+	" public key"
+	Keyword -> " public key"
+	" fully homomorphic encryption"
+	Keyword -> " fully homomorphic encryption"
+	" bootstrapping process"
+	Keyword -> " bootstrapping process"
+	" accumulator"
+	Keyword -> " accumulator"
+	" TFHE."
+	Keyword -> " TFHE."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PINGYUANZHANG2018
+		KHASAWNEH2017
+		HADEALABDULAZIZALHAMID2017
+		FagenLi2016
+		SHUMINGQIU2017
+		HouzhenWang2016
+		JaihuiChen2018
+		ZUOWEN2018
+		"MOHAMMEDA.M.ABDULLAH2016"
+		JinhuiLiu2016
+	}
+	" cryptography" -> PINGYUANZHANG2018
+	" cryptography" -> KHASAWNEH2017
+	" cryptography" -> HADEALABDULAZIZALHAMID2017
+	" cryptography" -> FagenLi2016
+	" cryptography" -> SHUMINGQIU2017
+	" cryptography" -> JaihuiChen2018
+	" cryptography" -> ZUOWEN2018
+	" cryptography" -> "MOHAMMEDA.M.ABDULLAH2016"
+	" cryptography" -> JinhuiLiu2016
+	" public key" -> HouzhenWang2016
+	" public key" -> JaihuiChen2018
+	" public key" -> JinhuiLiu2016
+	"Faster bootstrapping with multiple addends" -> Authors
+	Authors -> "TANPING ZHOU"
+	Authors -> "XIAOYUAN YANG"
+	Authors -> "LONGFEI LIU"
+	Authors -> "WEI ZHANG"
+	Authors -> "NINGBO LI"
+}

@@ -1,0 +1,22 @@
+strict digraph mind_map19 {
+	node [color=red shape=doubleoctagon]
+	"A cloud-based smart-parking system based on internet-of-things technologies"
+	node [color=blue shape=diamond]
+	"Author
+THANH NAM PHAM"
+	Keyword
+	"A cloud-based smart-parking system based on internet-of-things technologies" -> "Author
+THANH NAM PHAM"
+	"A cloud-based smart-parking system based on internet-of-things technologies" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Smart-parking system"
+	Keyword -> "Smart-parking system"
+	" performance metrics"
+	Keyword -> " performance metrics"
+	"A cloud-based smart-parking system based on internet-of-things technologies" -> Authors
+	Authors -> "THANH NAM PHAM"
+	Authors -> "MING-FONG TSAI"
+	Authors -> "DUC BINH NGUYEN"
+	Authors -> "CHYI-REN DOW"
+	Authors -> "DER-JIUNN DENG"
+}

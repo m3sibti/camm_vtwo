@@ -1,0 +1,44 @@
+strict digraph mind_map66 {
+	node [color=red shape=doubleoctagon]
+	"Service-driven iterative software project management with i-tropos"
+	node [color=blue shape=diamond]
+	"Author
+Wautelet"
+	Keyword
+	"Service-driven iterative software project management with i-tropos" -> "Author
+Wautelet"
+	"Service-driven iterative software project management with i-tropos" -> Keyword
+	node [color=yellow shape=ellipse]
+	": Service-oriented Development"
+	Keyword -> "":" Service-oriented Development"
+	" Iterative Development"
+	Keyword -> " Iterative Development"
+	" Software Life Cycle Management"
+	Keyword -> " Software Life Cycle Management"
+	" Tropos"
+	Keyword -> " Tropos"
+	" Unified Process"
+	Keyword -> " Unified Process"
+	" Project Management"
+	Keyword -> " Project Management"
+	" Service Modeling"
+	Keyword -> " Service Modeling"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Wautelet2018
+	}
+	"":" Service-oriented Development" -> Wautelet2018
+	" Iterative Development" -> Wautelet2018
+	" Software Life Cycle Management" -> Wautelet2018
+	" Tropos" -> Wautelet2018
+	" Unified Process" -> Wautelet2018
+	" Project Management" -> Wautelet2018
+	" Service Modeling" -> Wautelet2018
+	"Service-driven iterative software project management with i-tropos" -> Authors
+	Authors -> "Yves Wautelet"
+	Authors -> "Manuel Kolp"
+	Authors -> "Loris Penserini"
+}

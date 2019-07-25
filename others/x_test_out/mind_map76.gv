@@ -1,0 +1,39 @@
+strict digraph mind_map76 {
+	node [color=red shape=doubleoctagon]
+	"A framework for cost-aware process management: Cost reporting and cost prediction"
+	node [color=blue shape=diamond]
+	"Author
+Wynn"
+	Keyword
+	"A framework for cost-aware process management":" Cost reporting and cost prediction" -> "Author
+Wynn"
+	"A framework for cost-aware process management":" Cost reporting and cost prediction" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Business process management"
+	Keyword -> "Business process management"
+	" management accounting"
+	Keyword -> " management accounting"
+	" process mining"
+	Keyword -> " process mining"
+	" cost reporting"
+	Keyword -> " cost reporting"
+	" cost prediction."
+	Keyword -> " cost prediction."
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		Wynn2014
+	}
+	"Business process management" -> Wynn2014
+	" management accounting" -> Wynn2014
+	" process mining" -> Wynn2014
+	" cost reporting" -> Wynn2014
+	" cost prediction." -> Wynn2014
+	"A framework for cost-aware process management":" Cost reporting and cost prediction" -> Authors
+	Authors -> "Moe Thandar Wynn"
+	Authors -> "Wei Zhe Low"
+	Authors -> "Arthur H. M. ter Hofstede"
+	Authors -> "Wiebe Nauta"
+}

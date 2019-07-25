@@ -1,0 +1,56 @@
+strict digraph mind_map37 {
+	node [color=red shape=doubleoctagon]
+	"Performance evaluation gaps in a real-time strategy game between human and artificial intelligence players"
+	node [color=blue shape=diamond]
+	"Author
+MAN-JE KIM"
+	Keyword
+	"Performance evaluation gaps in a real-time strategy game between human and artificial intelligence players" -> "Author
+MAN-JE KIM"
+	"Performance evaluation gaps in a real-time strategy game between human and artificial intelligence players" -> Keyword
+	node [color=yellow shape=ellipse]
+	"Video game"
+	Keyword -> "Video game"
+	" Starcraft"
+	Keyword -> " Starcraft"
+	" game"
+	Keyword -> " game"
+	" artificial intelligence"
+	Keyword -> " artificial intelligence"
+	" game AI competition"
+	Keyword -> " game AI competition"
+	" human factor"
+	Keyword -> " human factor"
+	" human computer interaction"
+	Keyword -> " human computer interaction"
+	subgraph cluster_0 {
+		node [style=filled]
+		node [color=lightblue shape=circle]
+		label="Other Papers"
+		color=cyan
+		PETROVIC2018
+		FERNANDOORTEGA2018
+		MIRZAGOLAMKIBRIA2018
+		"DU-MIM2015"
+		ShirLiWang2017
+		ADADI2018
+		Xu2014
+		Pellas2014
+	}
+	" game" -> PETROVIC2018
+	" game" -> "DU-MIM2015"
+	" game" -> "DU-MIM2015"
+	" game" -> "DU-MIM2015"
+	" game" -> Xu2014
+	" game" -> Pellas2014
+	" artificial intelligence" -> FERNANDOORTEGA2018
+	" artificial intelligence" -> MIRZAGOLAMKIBRIA2018
+	" artificial intelligence" -> ShirLiWang2017
+	" artificial intelligence" -> ADADI2018
+	"Performance evaluation gaps in a real-time strategy game between human and artificial intelligence players" -> Authors
+	Authors -> Kim
+	Authors -> " Man-Je and Kim"
+	Authors -> " Kyung-Joong and Kim"
+	Authors -> " Seungjun and Dey"
+	Authors -> " Anind K"
+}
